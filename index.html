@@ -17,6 +17,16 @@ h1{font-size:clamp(28px,5vw,42px);margin:0 0 8px;line-height:1.15;
   background:linear-gradient(90deg,#fff,#9fd3ff);-webkit-background-clip:text;background-clip:text;color:transparent}
 .sub{color:var(--mut);font-size:15px;max-width:620px;margin:0 auto}
 
+section{margin:40px 0}
+h2.sh{font-size:18px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+
+.about{display:flex;gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);
+  border-radius:16px;padding:20px 22px}
+.about img{width:72px;height:72px;border-radius:50%;flex-shrink:0;border:2px solid var(--line)}
+.about h3{margin:0 0 4px;font-size:17px}
+.about p{margin:0;color:#c3ccd6;font-size:13.5px}
+.about .links{margin-top:8px;display:flex;gap:12px;font-size:12.5px}
+
 .list{display:flex;flex-direction:column;gap:14px}
 .paper{display:block;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--acc);
   border-radius:14px;padding:20px 22px;text-decoration:none;color:var(--ink);transition:transform .15s,border-color .15s}
@@ -25,6 +35,12 @@ h1{font-size:clamp(28px,5vw,42px);margin:0 0 8px;line-height:1.15;
 .paper .meta span{background:var(--card2);padding:2px 10px;border-radius:999px;border:1px solid var(--line)}
 .paper h2{margin:4px 0 6px;font-size:19px}
 .paper p{margin:0;color:#c3ccd6;font-size:13.5px}
+
+.disclaimer{background:var(--card);border:1px solid var(--line);border-left:4px solid #ff8a4f;
+  border-radius:14px;padding:20px 22px;font-size:13px;color:#c3ccd6}
+.disclaimer h3{margin:0 0 8px;font-size:15px;color:var(--ink)}
+.disclaimer ul{margin:8px 0 0;padding-left:18px}
+.disclaimer li{margin:6px 0}
 
 footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:var(--mut);font-size:12.5px;text-align:center}
 </style></head>
@@ -37,17 +53,64 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:v
   Neue Papers werden hier laufend ergänzt.</p>
 </header>
 
-<div class="list">
+<section>
+  <h2 class="sh">👤 About</h2>
+  <div class="about">
+    <img src="https://avatars.githubusercontent.com/u/99746?v=4" alt="otype" loading="lazy">
+    <div>
+      <h3>Hans-Gunther Schmidt (otype)</h3>
+      <p>*nix-Enthusiast, Hobby-Research-Lab. Diese Seite sammelt eigene Recherchen, aufbereitet mit KI-Unterstützung
+      (Hermes/Lex) auf Basis öffentlich verfügbarer Primärquellen (Regierungsseiten, Nachrichtenagenturen).</p>
+      <div class="links"><a href="https://github.com/otype" target="_blank">GitHub-Profil ↗</a></div>
+    </div>
+  </div>
+</section>
 
-  <a class="paper" href="papers/stromausfall-warnungen-2026/">
-    <div class="meta"><span>⚡ Geopolitik</span><span>05.11.2026</span><span>32 Statements</span></div>
-    <h2>Globale Stromausfall- &amp; Angriffswarnungen (Aug–Nov 2026)</h2>
-    <p>Welche Länder haben in den letzten 3 Monaten offizielle Warnungen zu Stromausfällen, Sabotage und Angriffsszenarien
-    ausgesprochen, welche Vorbereitungsmaßnahmen empfehlen sie, und welcher Zeitraum wird genannt? Mit exakten Zitaten
-    von Ministern, Staatsoberhäuptern und Generälen — nur verifizierte Primärquellen.</p>
-  </a>
+<section>
+  <h2 class="sh">📄 Papers</h2>
+  <div class="list">
 
-</div>
+    <a class="paper" href="papers/stromausfall-warnungen-2026/">
+      <div class="meta"><span>⚡ Geopolitik</span><span>05.11.2026</span><span>32 Statements</span></div>
+      <h2>Globale Stromausfall- &amp; Angriffswarnungen (Aug–Nov 2026)</h2>
+      <p>Welche Länder haben in den letzten 3 Monaten offizielle Warnungen zu Stromausfällen, Sabotage und Angriffsszenarien
+      ausgesprochen, welche Vorbereitungsmaßnahmen empfehlen sie, und welcher Zeitraum wird genannt? Mit exakten Zitaten
+      von Ministern, Staatsoberhäuptern und Generälen — nur verifizierte Primärquellen.</p>
+    </a>
+
+  </div>
+</section>
+
+<section id="disclaimer">
+  <h2 class="sh">⚖️ Disclaimer &amp; Haftungsausschluss</h2>
+  <div class="disclaimer">
+    <h3>Keine Rechtsberatung — bitte unabhängig prüfen lassen</h3>
+    <p>Der folgende Disclaimer ist eine allgemeine, von einer KI (Hermes/Lex) formulierte Orientierungshilfe und
+    <b>ersetzt keine individuelle Rechtsberatung</b>. Für eine belastbare rechtliche Einschätzung (insbesondere zur
+    deutschen Impressumspflicht nach § 5 TMG/DDG, Presserecht, Urheberrecht bei Zitaten) wende dich an einen Anwalt
+    für IT-/Medienrecht.</p>
+    <ul>
+      <li><b>Zweck &amp; Haftung:</b> Alle Inhalte dieser Seite dienen ausschließlich der privaten, nicht-kommerziellen
+      Information und Dokumentation öffentlich zugänglicher Quellen. Es wird keine Gewähr für Richtigkeit,
+      Vollständigkeit oder Aktualität der Angaben übernommen. Jegliche Haftung für Schäden, die aus der Nutzung oder
+      Nichtnutzung der bereitgestellten Informationen entstehen, wird ausgeschlossen, soweit gesetzlich zulässig.</li>
+      <li><b>Keine Handlungsempfehlung:</b> Die Inhalte stellen keine Aufforderung oder Empfehlung zu bestimmten
+      Vorsorge-, Finanz- oder sonstigen Maßnahmen dar. Zusammenfassungen von Regierungs- und Behördenangaben sind
+      sinngemäß wiedergegeben; verbindlich sind ausschließlich die jeweiligen Originalquellen.</li>
+      <li><b>Zitate &amp; Quellen:</b> Wörtliche Zitate werden im Rahmen des Zitatrechts (§ 51 UrhG) zu Informations-
+      und Dokumentationszwecken mit Quellenangabe wiedergegeben. Rechte an den zitierten Aussagen und Originaltexten
+      liegen bei den jeweiligen Urhebern/Nachrichtenagenturen/Behörden. Bei Einwänden gegen eine Zitierung bitte
+      Kontakt aufnehmen (Issue im GitHub-Repo) — der betreffende Abschnitt wird dann geprüft/entfernt.</li>
+      <li><b>Links zu Drittseiten:</b> Für Inhalte verlinkter externer Seiten wird keine Verantwortung übernommen;
+      zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar, auf deren Inhalte besteht kein Einfluss.</li>
+      <li><b>KI-generierte Aufbereitung:</b> Recherche, Aggregation und Gestaltung erfolgten mit KI-Unterstützung
+      (Hermes/Lex) auf Basis von Web-Suche. Trotz Sorgfalt bei der Quellenprüfung sind Fehler nicht ausgeschlossen —
+      bei Zweifeln bitte die verlinkte Originalquelle konsultieren.</li>
+      <li><b>Keine Panikmache:</b> Es wurden bewusst nur Quellen mit einem direkten, verifizierbaren Zitat einer
+      Amtsperson oder Behörde verwendet; wertende/dramatisierende Boulevard-Berichterstattung wurde ausgeschlossen.</li>
+    </ul>
+  </div>
+</section>
 
 <footer>
   Recherche &amp; Aufbereitung: Lex (Hermes) für otype · <a href="https://github.com/otype/research-lab" target="_blank">github.com/otype/research-lab</a>
