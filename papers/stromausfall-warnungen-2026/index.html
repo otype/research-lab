@@ -6,7 +6,7 @@
   --bg:#0f1419;--bg2:#161d26;--card:#1b2430;--card2:#212b3a;
   --ink:#eef2f6;--mut:#8b9bb0;--line:#2a3747;
   --acc:#ffb020;--acc2:#4fd1c5;--warn:#ff5f56;--ok:#5ce593;
-  --eu:#4fa8ff;--na:#ff8a4f;--ap:#c07bff;--ru:#ff5f87;
+  --eu:#4fa8ff;--na:#ff8a4f;--ap:#c07bff;--ru:#ff5f87;--de:#ffce3a;
 }
 *{box-sizing:border-box}
 body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
@@ -50,11 +50,13 @@ section{margin:40px 0}
 .regionnav a.na{border-color:var(--na);color:var(--na)}
 .regionnav a.ap{border-color:var(--ap);color:var(--ap)}
 .regionnav a.ru{border-color:var(--ru);color:var(--ru)}
+.regionnav a.de{border-color:var(--de);color:var(--de)}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
 .qcard{background:var(--card);border-radius:14px;padding:16px;border-top:4px solid var(--line);position:relative}
 .qcard.eu{border-top-color:var(--eu)}.qcard.na{border-top-color:var(--na)}
 .qcard.ap{border-top-color:var(--ap)}.qcard.ru{border-top-color:var(--ru)}
+.qcard.de{border-top-color:var(--de)}
 .qcard .flag{font-size:22px}
 .qcard .who{font-weight:700;font-size:14.5px;margin:6px 0 2px}
 .qcard .meta{color:var(--mut);font-size:12px;margin-bottom:8px}
@@ -82,10 +84,10 @@ footer a{color:var(--acc2)}
 </header>
 
 <div class="stats">
-  <div class="stat"><div class="n">32</div><div class="l">verifizierte Statements</div></div>
+  <div class="stat"><div class="n">39</div><div class="l">verifizierte Statements</div></div>
   <div class="stat"><div class="n">19+</div><div class="l">Länder &amp; Organisationen</div></div>
   <div class="stat"><div class="n">72h</div><div class="l">häufigster Vorsorge-Zeitraum</div></div>
-  <div class="stat"><div class="n">4</div><div class="l">Regionen abgedeckt</div></div>
+  <div class="stat"><div class="n">5</div><div class="l">Regionen abgedeckt</div></div>
 </div>
 
 <section id="zeitraum">
@@ -107,6 +109,7 @@ footer a{color:var(--acc2)}
     <a class="na" href="#namerika">🌎 Nordamerika &amp; NATO</a>
     <a class="ap" href="#asien">🌏 Asien-Pazifik</a>
     <a class="ru" href="#nahost">🌍 Russland · Ukraine · Nahost</a>
+    <a class="de" href="#deutschland">🇩🇪 Deutschland im Detail</a>
   </div>
 </section>
 
@@ -318,8 +321,51 @@ footer a{color:var(--acc2)}
   </div>
 </section>
 
+<section id="deutschland">
+  <div class="sh"><h2>🇩🇪 Deutschland im Detail</h2><span class="cnt">7 Statements</span></div>
+  <div class="grid">
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Alexander Dobrindt</div><div class="meta">Bundesinnenminister (CSU) · 18.07.2026</div>
+      <blockquote>„Die vermehrte Melde- und Aufklärungslage hat mich dazu veranlasst, die bislang formulierte abstrakte Bedrohungslage zu einer hohen Bedrohungslage hochzustufen. Das bedeutet, dass in Deutschland jederzeit mit dem Risiko von Anschlägen zu rechnen ist.“</blockquote>
+      <div class="tags"><span class="tag">Bedrohungslage hoch</span><span class="tag">Anschlagsgefahr</span></div>
+      <a class="src" href="https://www.tagesschau.de/inland/sicherheit-dobrindt-anschlagsgefahr-100.html" target="_blank">↗ tagesschau.de</a></div>
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Alexander Dobrindt</div><div class="meta">Bundesinnenminister (CSU) · Aug. 2026 (Sondersitzung Innenausschuss)</div>
+      <blockquote>„Wir müssen jeden Tag auch mit einem Anschlagsszenario in Deutschland weiter rechnen.“ (zu russischen Saboteuren/„Wegwerf-Agenten“ nach dem Drohnenfund Leipzig/Halle)</blockquote>
+      <div class="tags"><span class="tag">Sabotage</span><span class="tag">hybride Bedrohung</span></div>
+      <a class="src" href="https://www.br.de/nachrichten/deutschland-welt/dobrindt-muessen-jeden-tag-mit-anschlagsszenario-rechnen,VUpfQOn" target="_blank">↗ BR24</a></div>
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Alexander Dobrindt</div><div class="meta">Bundesinnenminister (CSU) · 28.08.2026</div>
+      <blockquote>„Wir befinden uns in einem Wettrüsten zwischen Abwehrmechanismen und immer wieder neuen Attacken.“ — „Der Ostseeraum ist ein gemeinsamer Bedrohungsraum. Und wir wollen daraus einen gemeinsamen Sicherheitsraum machen.“</blockquote>
+      <div class="tags"><span class="tag">Ostsee-Konferenz Flensburg</span><span class="tag">Drohnen/Sabotage</span></div>
+      <a class="src" href="https://www.zdfheute.de/politik/deutschland/dobrindt-sicherheit-bedrohung-ostsee-konferenz-flensburg-100.html" target="_blank">↗ ZDFheute</a></div>
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Alexander Dobrindt</div><div class="meta">Bundesinnenminister (CSU) · 04.09.2026</div>
+      <blockquote>Zu Sabotageakten an Umspannwerken in Brandenburg, NRW, Niedersachsen und Sachsen (Stromausfälle durch Abschussvorrichtungen): Deutschland habe „aktuell mit unterschiedlichen Bedrohungs- und Gefährdungslagen gleichzeitig zu tun“; die Ermittler gingen zu diesem Zeitpunkt von „Klimaextremismus“ eines Einzeltäters aus.</blockquote>
+      <div class="tags"><span class="tag tf">direkter Stromausfall-Bezug</span><span class="tag">Umspannwerke</span></div>
+      <a class="src" href="https://www.deutschlandfunk.de/dobrindt-geht-von-klimaextremismus-aus-fahndung-nach-tatverdaechtigem-laeuft-100.html" target="_blank">↗ Deutschlandfunk</a></div>
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Alexander Dobrindt</div><div class="meta">Bundesinnenminister (CSU) · 06.09.2026</div>
+      <blockquote>„Russlands hybride Angriffe mit Sprengstoffdrohnen auf Flughäfen, Agenten in unseren Städten, Cyberangriffen auf unsere Netze und Sabotage unserer Infrastruktur sind tägliche Realität. Diese Angriffe werden zunehmen, aber wir können uns wehren und schützen.“</blockquote>
+      <div class="tags"><span class="tag">„Schutzschirm“-Plan</span><span class="tag">Cyberdome</span></div>
+      <a class="src" href="https://www.morgenpost.de/politik/article413070694/nach-drohnenvorfall-dobrindt-plant-schutzschirm-gegen-russische-sabotage.html" target="_blank">↗ Berliner Morgenpost</a></div>
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Friedrich Merz</div><div class="meta">Bundeskanzler (CDU) · Okt. 2026</div>
+      <blockquote>„Meine größte Sorge sind die Auswirkungen Russlands auf unsere Gesellschaft und die Art und Weise, wie es ihnen gelingt, unsere Gesellschaften zu destabilisieren.“ — „Das ist ein grundlegender Angriff auf die gesamte politische Ordnung, die wir nach 1990 erreicht haben.“</blockquote>
+      <div class="tags"><span class="tag">hybride Angriffe</span><span class="tag">Destabilisierung</span></div>
+      <a class="src" href="https://www.dw.com/de/merz-zu-russland-angriff-auf-gesamte-politische-ordnung/a-79730164" target="_blank">↗ Deutsche Welle</a></div>
+
+    <div class="qcard de"><div class="flag">🇩🇪</div><div class="who">Sprecher Boris Pistorius</div><div class="meta">Bundesverteidigungsministerium (SPD) · Okt. 2026</div>
+      <blockquote>Bestätigung, dass die Bundeswehr die Bedrohung ihrer Einrichtungen durch russische Sabotage hochgestuft hat; die Bedrohung durch Russland werde inzwischen als „erheblich“ eingeschätzt — „es gebe noch weitere, höhere Stufen des Bedrohungsgrades“. Anlass: Drohnenfunde nahe Bundeswehr-Flugplatz Wunstorf.</blockquote>
+      <div class="tags"><span class="tag">Bedrohungsgrad „erheblich“</span><span class="tag">Bundeswehr-Liegenschaften</span></div>
+      <a class="src" href="https://www.dw.com/de/merz-zu-russland-angriff-auf-gesamte-politische-ordnung/a-79730164" target="_blank">↗ Deutsche Welle</a></div>
+
+  </div>
+  <p style="color:var(--mut);font-size:12.5px;margin-top:10px">Hinweis: Diese Sektion deckt das ganze Jahr 2026 ab (nicht nur die letzten 3 Monate wie die übrigen Regionen), da die deutsche Bedrohungslage sich seit Sommer 2026 schrittweise verschärft hat und der Gesamtverlauf für die Einordnung relevant ist.</p>
+</section>
+
 <footer>
-  Recherche &amp; Aufbereitung: KI-unterstützt erzeugt für otype · Stand 05.11.2026 · nur verifizierbare Primärquellen, keine Panikmache.<br>
+  Recherche &amp; Aufbereitung: Lex (Hermes) für otype · Stand 05.11.2026 · nur verifizierbare Primärquellen, keine Panikmache.<br>
   Vollständiger One-Pager mit allen Details &amp; Methodik: <a href="https://github.com/otype/research-lab/blob/main/docs/2026-11-stromausfall-warnungen-global.md" target="_blank">research-lab · GitHub</a><br>
   <a href="../../#disclaimer">⚖️ Disclaimer &amp; Haftungsausschluss</a>
 </footer>
