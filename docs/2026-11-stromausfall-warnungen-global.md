@@ -100,4 +100,4 @@
 
 **Methodischer Hinweis:** Alle Zitate stammen aus Primärquellen (Regierungs-/Behördenseiten, offizielle Reden) oder seriösen Nachrichtenagenturen (Reuters, AP, dpa, Kyodo, BBC) mit direkter Zitatwiedergabe. Artikel ohne verifizierbares Zitat einer konkreten Person/Behörde wurden ausgeschlossen (betrifft u.a. zahlreiche Boulevard-Stücke zu „90 Tage ohne Strom“). Alle Links wurden einzeln via Websuche nachrecherchiert und stichprobenartig geprüft; eine URL (Times of Israel Liveblog) konnte nicht final verifiziert werden und ist entsprechend markiert.
 
-*Recherche durchgeführt von Lex (Hermes) am 05.11.2026 für otype.*
+*Recherche KI-unterstützt erzeugt am 05.11.2026 für otype.*
