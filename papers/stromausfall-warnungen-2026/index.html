@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>⚡ Globale Blackout-/Angriffswarnungen Aug–Nov 2026</title>
+<style>
+:root{
+  --bg:#0f1419;--bg2:#161d26;--card:#1b2430;--card2:#212b3a;
+  --ink:#eef2f6;--mut:#8b9bb0;--line:#2a3747;
+  --acc:#ffb020;--acc2:#4fd1c5;--warn:#ff5f56;--ok:#5ce593;
+  --eu:#4fa8ff;--na:#ff8a4f;--ap:#c07bff;--ru:#ff5f87;
+}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+.w{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+a{color:var(--acc2)}
+a.back{color:var(--acc2);text-decoration:none;font-weight:600;font-size:14px}
+
+header{text-align:center;margin-bottom:28px}
+header .tag{display:inline-block;background:var(--card2);border:1px solid var(--line);color:var(--mut);
+  font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:4px 12px;border-radius:999px;margin-bottom:14px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 8px;line-height:1.15;
+  background:linear-gradient(90deg,#fff,#9fd3ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--mut);font-size:15px;max-width:720px;margin:0 auto}
+.sub b{color:var(--ink)}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+.stat .n{font-size:30px;font-weight:800;color:var(--acc)}
+.stat .l{font-size:12px;color:var(--mut);margin-top:4px}
+
+section{margin:40px 0}
+.sh{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
+.sh h2{font-size:20px;margin:0}
+.sh .cnt{color:var(--mut);font-size:13px}
+
+/* Timeframe chart */
+.tf-chart{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.tf-row{display:grid;grid-template-columns:150px 1fr 56px;gap:10px;align-items:center;margin:10px 0;font-size:13px}
+.tf-row .label{color:var(--ink);font-weight:600}
+.tf-row .bar{height:16px;border-radius:8px;background:linear-gradient(90deg,var(--acc),#ffd27a)}
+.tf-row .val{color:var(--mut);text-align:right}
+.tf-row.sub .bar{background:linear-gradient(90deg,var(--acc2),#8af0e4)}
+.tf-row.winter .bar{background:linear-gradient(90deg,var(--warn),#ff9d8f)}
+.tf-row.none .bar{background:linear-gradient(90deg,#55606e,#3a4350)}
+
+/* Region nav */
+.regionnav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.regionnav a{text-decoration:none;font-size:13px;font-weight:600;padding:6px 14px;border-radius:999px;
+  border:1px solid var(--line);color:var(--mut)}
+.regionnav a.eu{border-color:var(--eu);color:var(--eu)}
+.regionnav a.na{border-color:var(--na);color:var(--na)}
+.regionnav a.ap{border-color:var(--ap);color:var(--ap)}
+.regionnav a.ru{border-color:var(--ru);color:var(--ru)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.qcard{background:var(--card);border-radius:14px;padding:16px;border-top:4px solid var(--line);position:relative}
+.qcard.eu{border-top-color:var(--eu)}.qcard.na{border-top-color:var(--na)}
+.qcard.ap{border-top-color:var(--ap)}.qcard.ru{border-top-color:var(--ru)}
+.qcard .flag{font-size:22px}
+.qcard .who{font-weight:700;font-size:14.5px;margin:6px 0 2px}
+.qcard .meta{color:var(--mut);font-size:12px;margin-bottom:8px}
+.qcard blockquote{margin:0 0 10px;font-size:13.5px;line-height:1.5;color:#dfe7ee;border-left:3px solid var(--line);padding-left:10px;font-style:italic}
+.qcard .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.qcard .tag{font-size:11px;background:var(--card2);color:var(--mut);padding:3px 8px;border-radius:999px;border:1px solid var(--line)}
+.qcard .tag.tf{color:var(--acc);border-color:#5a4722}
+.qcard .src{display:block;margin-top:10px;font-size:12px}
+
+footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:var(--mut);font-size:12.5px;text-align:center}
+footer a{color:var(--acc2)}
+
+@media (max-width:600px){.tf-row{grid-template-columns:110px 1fr 44px;font-size:12px}}
+</style></head>
+<body><div class="w">
+
+<a class="back" href="../../">📚 ← Übersicht</a>
+
+<header>
+  <span class="tag">Globale Recherche · verifizierte Primärquellen</span>
+  <h1>⚡ Stromausfall- &amp; Angriffswarnungen weltweit</h1>
+  <p class="sub">Alle Staats-/Regierungsäußerungen, Zivilschutz-Dokumente und Militär-/Geheimdienst-Statements
+  zu Stromausfällen, Sabotage und Angriffsszenarien — <b>August bis November 2026</b>.
+  Nur verifizierte Zitate von Amtsträgern/Behörden, keine Boulevard-/Panikmache-Quellen.</p>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="n">32</div><div class="l">verifizierte Statements</div></div>
+  <div class="stat"><div class="n">19+</div><div class="l">Länder &amp; Organisationen</div></div>
+  <div class="stat"><div class="n">72h</div><div class="l">häufigster Vorsorge-Zeitraum</div></div>
+  <div class="stat"><div class="n">4</div><div class="l">Regionen abgedeckt</div></div>
+</div>
+
+<section id="zeitraum">
+  <div class="sh"><h2>⏱️ Empfohlener Vorbereitungszeitraum im Vergleich</h2></div>
+  <div class="tf-chart">
+    <div class="tf-row"><div class="label">72 Stunden</div><div class="bar" style="width:100%"></div><div class="val">4 Länder/Orgs</div></div>
+    <div class="tf-row sub"><div class="label">10 Tage</div><div class="bar" style="width:28%"></div><div class="val">Deutschland</div></div>
+    <div class="tf-row sub"><div class="label">2 Wochen</div><div class="bar" style="width:20%"></div><div class="val">Österreich*</div></div>
+    <div class="tf-row winter"><div class="label">Winter-Saison</div><div class="bar" style="width:55%"></div><div class="val">UA, Iran</div></div>
+    <div class="tf-row none"><div class="label">Keine Angabe</div><div class="bar" style="width:100%"></div><div class="val">11 Länder/Orgs</div></div>
+  </div>
+  <p style="color:var(--mut);font-size:12.5px;margin-top:10px">*uneinheitlich, Angabe des Zivilschutzverbands. „Keine Angabe“ = akute Lagewarnung ohne konkrete Bürger-Vorsorgefrist (u.a. Polen, Tschechien, Baltikum, USA, Kanada, NATO, Russland, Taiwan, Südkorea, Philippinen, Israel).</p>
+</section>
+
+<section>
+  <div class="sh"><h2>🧭 Nach Region springen</h2></div>
+  <div class="regionnav">
+    <a class="eu" href="#europa">🇪🇺 Europa</a>
+    <a class="na" href="#namerika">🌎 Nordamerika &amp; NATO</a>
+    <a class="ap" href="#asien">🌏 Asien-Pazifik</a>
+    <a class="ru" href="#nahost">🌍 Russland · Ukraine · Nahost</a>
+  </div>
+</section>
+
+<section id="europa">
+  <div class="sh"><h2>🇪🇺 Europa</h2><span class="cnt">11 Statements</span></div>
+  <div class="grid">
+
+    <div class="qcard eu"><div class="flag">🇬🇧</div><div class="who">Wes Streeting</div><div class="meta">Verteidigungsminister · 27.10.2026</div>
+      <blockquote>„Having a few everyday essentials at home, from tinned food to torches, helps households prepare for disruption… power cuts…“</blockquote>
+      <div class="tags"><span class="tag tf">72 Std.</span><span class="tag">Be Ready-Kampagne</span></div>
+      <a class="src" href="https://www.bbc.com/news/articles/c5rmy84np001o" target="_blank">↗ BBC News</a></div>
+
+    <div class="qcard eu"><div class="flag">🇬🇧</div><div class="who">Andy Burnham</div><div class="meta">Mayor of Greater Manchester · 23.10.2026</div>
+      <blockquote>„Unexpected events seem to be becoming more and more common.“</blockquote>
+      <div class="tags"><span class="tag tf">3 Tage</span><span class="tag">Vorrats-Checkliste</span></div>
+      <a class="src" href="https://www.bbc.com/news/articles/ckr5yz2pqqppo" target="_blank">↗ BBC News</a></div>
+
+    <div class="qcard eu"><div class="flag">🇵🇱</div><div class="who">Donald Tusk</div><div class="meta">Premierminister · 03.–04.11.2026</div>
+      <blockquote>„Neue Erkenntnisse deuten darauf hin, dass es in der ersten Novemberhälfte zu Vorfällen kommen könnte, einschließlich bewaffneter Eindringversuche auf polnisches Territorium.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Grenzsicherung</span></div>
+      <a class="src" href="https://www.pap.pl/en/news/poland-reinforces-russian-border-amid-sabotage-threat-pm-says" target="_blank">↗ PAP.pl</a></div>
+
+    <div class="qcard eu"><div class="flag">🇨🇿</div><div class="who">Michal Koudelka</div><div class="meta">Direktor BIS (Geheimdienst) · Herbst 2026</div>
+      <blockquote>Warnung vor möglichen russischen Angriffen/Sabotage auf NATO-Territorium und Infrastruktur.</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Geheimdienst</span></div>
+      <a class="src" href="https://english.radio.cz/bis-chief-warns-possible-russian-attacks-nato-territory-8899821" target="_blank">↗ Radio Prague Intl.</a></div>
+
+    <div class="qcard eu"><div class="flag">🇨🇿</div><div class="who">Lubomír Metnar</div><div class="meta">Innenminister · 01.09.2026</div>
+      <blockquote>„Wir reagieren auf die aktuelle Entwicklung mit konkreten Maßnahmen, die aus Sicherheitsgründen nicht spezifiziert werden können.“ (Reaktion auf Sabotage am dt. Stromnetz, Brandenburg)</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Infrastrukturschutz</span></div>
+      <a class="src" href="https://www.reuters.com/world/german-police-probe-unexploded-incendiary-device-brandenburg-power-substation-2026-09-01/" target="_blank">↗ Reuters</a></div>
+
+    <div class="qcard eu"><div class="flag">🇩🇪</div><div class="who">Ralph Tiesler</div><div class="meta">Präsident BBK · Okt. 2026</div>
+      <blockquote>„Alle Haushalte sollten sich möglichst 10 Tage selbst versorgen können.“</blockquote>
+      <div class="tags"><span class="tag tf">10 Tage</span><span class="tag">Wasser/Licht/Wärme</span></div>
+      <a class="src" href="https://www.swr.de/leben/verbraucher/vorsorgen-fuer-krisen-katastrophen-bbk-offizielle-empfehlung-faq-100.html" target="_blank">↗ SWR</a></div>
+
+    <div class="qcard eu"><div class="flag">🇩🇰</div><div class="who">Beredskabsstyrelsen</div><div class="meta">Zivilschutzbehörde · 12.10.2026</div>
+      <blockquote>Offizielle Bürgerbroschüre: „population preparedness and 72 hours of self-sufficiency“.</blockquote>
+      <div class="tags"><span class="tag tf">72 Std.</span><span class="tag">Broschüre</span></div>
+      <a class="src" href="https://civil-protection-knowledge-network.europa.eu/media/publication-citizens-population-preparedness-and-72-hours-self-sufficiency-denmark" target="_blank">↗ EU Civil Protection Network</a></div>
+
+    <div class="qcard eu"><div class="flag">🇫🇮</div><div class="who">Sisäministeriö</div><div class="meta">Innenministerium · 14.–15.10.2026</div>
+      <blockquote>Gedruckter Leitfaden an 3,5 Mio. Haushalte zu Strom-/Internetausfällen und Drohnenbedrohung.</blockquote>
+      <div class="tags"><span class="tag tf">72 Std.</span><span class="tag">3,5 Mio. Haushalte</span></div>
+      <a class="src" href="https://yle.fi/a/74-20251555" target="_blank">↗ Yle News</a></div>
+
+    <div class="qcard eu"><div class="flag">🇪🇺</div><div class="who">Hadja Lahbib</div><div class="meta">EU-Kommissarin für Krisenmanagement · 03.11.2026</div>
+      <blockquote>Vorstellung EU-weiter Leitlinien zu „72-hour self-sufficiency“; neuer jährlicher „EU Preparedness Day“.</blockquote>
+      <div class="tags"><span class="tag tf">72 Std.</span><span class="tag">EU-weit</span></div>
+      <a class="src" href="https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commission-takes-new-steps-prepare-europeans-growing-crisis-risks-2026-11-03_en" target="_blank">↗ EU-Kommission</a></div>
+
+    <div class="qcard eu"><div class="flag">🇦🇹</div><div class="who">BMI / Innenminister Karner</div><div class="meta">03.10. &amp; 07.09.2026</div>
+      <blockquote>Bundesweiter Zivilschutz-Probealarm (8.399 Sirenen, 99,33 % funktionstüchtig) + neue ZIVA-App für Blackout-Vorsorge.</blockquote>
+      <div class="tags"><span class="tag">uneinheitlich</span><span class="tag">Sirenen + App</span></div>
+      <a class="src" href="https://www.bmi.gv.at/news8078.html" target="_blank">↗ BMI.gv.at</a></div>
+
+    <div class="qcard eu"><div class="flag">🇱🇹🇱🇻</div><div class="who">Nausėda &amp; Rinkēvičs</div><div class="meta">Präsidenten Litauen/Lettland · Okt./Nov. 2026</div>
+      <blockquote>„I cannot deny that we have such information and that it concerns limited kinetic operations likely targeting critical infrastructure.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Infrastrukturschutz</span></div>
+      <a class="src" href="https://apnews.com/article/lithuania-baltics-poland-russia-attack-infrastructure-nato-fb3d17fac66f23568cd3cd27264a4c75" target="_blank">↗ AP News</a></div>
+
+  </div>
+</section>
+
+<section id="namerika">
+  <div class="sh"><h2>🌎 Nordamerika &amp; NATO</h2><span class="cnt">7 Statements</span></div>
+  <div class="grid">
+
+    <div class="qcard na"><div class="flag">🇺🇸</div><div class="who">Donald J. Trump</div><div class="meta">Präsident, Executive Order 14421 · 26.08.2026</div>
+      <blockquote>„Certain foreign actors are increasingly creating and exploiting vulnerabilities in the United States bulk-power system… I hereby declare a national emergency with respect to that threat.“</blockquote>
+      <div class="tags"><span class="tag">120 Tage (Behörden)</span><span class="tag">keine Bürgerfrist</span></div>
+      <a class="src" href="https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/" target="_blank">↗ The White House</a></div>
+
+    <div class="qcard na"><div class="flag">🇺🇸</div><div class="who">Wayne Christian</div><div class="meta">Commissioner, Railroad Commission of Texas · 24.09.2026</div>
+      <blockquote>„Texas is the energy capital of the world, and that makes our energy infrastructure a prime target for foreign adversaries.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Cyberabwehr</span></div>
+      <a class="src" href="https://www.rrc.texas.gov/news/commissioner-christian-urges-texas-energy-industry-to-prepare-for-evolving-cyber-threats" target="_blank">↗ Railroad Commission of Texas</a></div>
+
+    <div class="qcard na"><div class="flag">🇺🇸</div><div class="who">Gen.Lt. Joseph Jarrard</div><div class="meta">Deputy Commander, US NORTHCOM · 14.08.2026</div>
+      <blockquote>„We don't have the sensors… We are ill-equipped right now to handle something like that.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Drohnenabwehr</span></div>
+      <a class="src" href="https://defensescoop.com/2026/08/14/northcom-general-warning-weak-drone-defense-homeland/" target="_blank">↗ DefenseScoop</a></div>
+
+    <div class="qcard na"><div class="flag">🇨🇦</div><div class="who">Max Watson</div><div class="meta">Sprecher, Public Safety Canada · 02.08.2026</div>
+      <blockquote>„All levels of government, together with private industry, must collaborate to ensure that information, operational technology, industrial control systems, and software supply chains are secure.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Cyberangriff Québec</span></div>
+      <a class="src" href="https://www.cbc.ca/news/canada/montreal/hacking-water-treatment-plants-cyberattack-quebec-9.7294526" target="_blank">↗ CBC News</a></div>
+
+    <div class="qcard na"><div class="flag">🪖</div><div class="who">J.-C. Ellermann-Kingombe</div><div class="meta">NATO Assistant Sec. Gen. Cyber/Hybrid · 20.–21.10.2026</div>
+      <blockquote>„Critical infrastructure is a target. We have seen this in Ukraine, as well as in Russia's hybrid attacks against NATO Allies.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Seekabelschutz</span></div>
+      <a class="src" href="https://www.nato.int/cps/en/natohq/news_237000.htm" target="_blank">↗ NATO.int</a></div>
+
+    <div class="qcard na"><div class="flag">🪖</div><div class="who">James Appathurai</div><div class="meta">NATO-Beamter, Energiesicherheit · 30.10.2026</div>
+      <blockquote>„There should be no doubt: energy infrastructure is targeted by the Russians… we can expect energy infrastructure to be even more targeted.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Energie-Infrastruktur</span></div>
+      <a class="src" href="https://www.spglobal.com/commodity-insights/en/news-research/latest-news/lng/103026-interview-nato-official-warns-europe" target="_blank">↗ S&amp;P Global</a></div>
+
+    <div class="qcard na"><div class="flag">🪖</div><div class="who">Christian Buck</div><div class="meta">NATO Assistant Sec. Gen. Operations · 03.11.2026</div>
+      <blockquote>„Since its launch, there has been a drastic reduction in incidents related to critical undersea infrastructure in the Baltic Sea.“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Baltic Sentry</span></div>
+      <a class="src" href="https://euperspectives.eu/2026/11/baltic-sentry-made-sabotage-too-costly-for-russia-nato-man-tells-lawmakers/" target="_blank">↗ euperspectives.eu</a></div>
+
+  </div>
+</section>
+
+<section id="asien">
+  <div class="sh"><h2>🌏 Asien-Pazifik</h2><span class="cnt">10 Statements</span></div>
+  <div class="grid">
+
+    <div class="qcard ap"><div class="flag">🇹🇼</div><div class="who">Verteidigungsministerium</div><div class="meta">Zivile Luftschutzübung Taichung · 10.–11.08.2026</div>
+      <blockquote>SMS-Warnung: „Due to simulated air attacks on communications infrastructure, mobile network access will be affected.“</blockquote>
+      <div class="tags"><span class="tag">akuter Angriffsfall</span><span class="tag">Luftschutzübung</span></div>
+      <a class="src" href="https://focustaiwan.tw/society/202608100019" target="_blank">↗ Focus Taiwan</a></div>
+
+    <div class="qcard ap"><div class="flag">🇹🇼</div><div class="who">Chi Lien-cheng</div><div class="meta">Minister, National Security Council · 03.07.2026</div>
+      <blockquote>„Our adversary is right on our doorstep, just across the Taiwan Strait. That is very close.“</blockquote>
+      <div class="tags"><span class="tag">Invasionsszenario</span><span class="tag">Evakuierung</span></div>
+      <a class="src" href="https://www.reuters.com/world/china/inside-taiwans-nightmare-scenario-chinese-blockade-earthquake-sabotage-invasion-2026-07-03" target="_blank">↗ Reuters</a></div>
+
+    <div class="qcard ap"><div class="flag">🇹🇼</div><div class="who">Wellington Koo Li-hsiung</div><div class="meta">Verteidigungsminister · 22.–28.07.2026</div>
+      <blockquote>Han-Kuang-42-Übung: „protection of critical infrastructure and key political and military targets.“</blockquote>
+      <div class="tags"><span class="tag">Invasions-/Blockadeszenario</span><span class="tag">Mobilisierung</span></div>
+      <a class="src" href="https://www.taipeitimes.com/News/taiwan/archives/2026/07/28/2003861536" target="_blank">↗ Taipei Times</a></div>
+
+    <div class="qcard ap"><div class="flag">🇹🇼</div><div class="who">Präsident Lai Ching-te</div><div class="meta">Vorwort „In Case of Crisis“ · seit 16.09.2025</div>
+      <blockquote>„The guide is designed to equip everyone in Taiwan with essential safety information so that we can protect one another and safeguard our home together.“</blockquote>
+      <div class="tags"><span class="tag">Sabotage Seekabel</span><span class="tag">Go-Bag</span></div>
+      <a class="src" href="https://prepare.mnd.gov.tw/assets/pdf/manual.en.pdf" target="_blank">↗ MND Taiwan</a></div>
+
+    <div class="qcard ap"><div class="flag">🇰🇷</div><div class="who">Ministerium für Inneres u. Sicherheit</div><div class="meta">Landesweite Luftschutzübung · 20.08.2026</div>
+      <blockquote>Luftalarm, Verlegung in Schutzräume; „Emergency Ready App“ mit 17.000+ Schutzräumen.</blockquote>
+      <div class="tags"><span class="tag">Bedrohung Nordkorea</span><span class="tag">Schutzraum-App</span></div>
+      <a class="src" href="https://m-en.yna.co.kr/view/AEN20260819007100315" target="_blank">↗ Yonhap News</a></div>
+
+    <div class="qcard ap"><div class="flag">🇦🇺</div><div class="who">Mike Burgess</div><div class="meta">Director-General, ASIO · 24.06.2026</div>
+      <blockquote>„We discovered nation state hackers had compromised the network of an Australian critical infrastructure provider… preparing for sabotage… so they could cripple it at a time of their choosing.“</blockquote>
+      <div class="tags"><span class="tag">laufende Sabotage-Gefahr</span><span class="tag">Cyber</span></div>
+      <a class="src" href="https://www.theregister.com/security/2026/06/25/nation-state-actors-cracked-critical-australian-infrastructure-to-cripple-it-at-a-time-of-their-choosing/5261877" target="_blank">↗ The Register</a></div>
+
+    <div class="qcard ap"><div class="flag">🇵🇭</div><div class="who">Gilberto Teodoro Jr.</div><div class="meta">Verteidigungsminister · 14.10.2026</div>
+      <blockquote>„China alone is the troublemaker in the region.“</blockquote>
+      <div class="tags"><span class="tag">Südchinesisches Meer</span></div>
+      <a class="src" href="https://www.inquirer.net/492925/china-alone-is-the-troublemaker-in-the-region-teodoro/" target="_blank">↗ Inquirer.net</a></div>
+
+    <div class="qcard ap"><div class="flag">🇵🇭🇨🇳</div><div class="who">Jing Quan / Präs. Marcos</div><div class="meta">Chinesischer Botschafter / Reaktion · 15.–19.10.2026</div>
+      <blockquote>Jing: „If we want to use force, we may easily win. But no, we will not choose force and we love peace.“ Marcos: „It sounds very much to me like a threat…“</blockquote>
+      <div class="tags"><span class="tag">bilaterale Spannung</span><span class="tag">diplomat. Protest</span></div>
+      <a class="src" href="https://www.washingtonpost.com/world/2026/10/16/china-philippines-chinese-ambassador-jing-quan-south-china-sea-disputes/304ac994-c942-11f1-aefb-abe4112d087e_story.html" target="_blank">↗ Washington Post</a></div>
+
+    <div class="qcard ap"><div class="flag">🇳🇿</div><div class="who">Winston Peters</div><div class="meta">Außenminister · 11.08.2026</div>
+      <blockquote>„The Pacific is an Ocean of Peace and we are deeply concerned by China's testing of nuclear-capable weapons into the South Pacific.“</blockquote>
+      <div class="tags"><span class="tag">Raketentest-Reaktion</span></div>
+      <a class="src" href="https://www.rnz.co.nz/news/politics/680418/winston-peters-deeply-concerned-after-china-conducts-missile-test-in-south-pacific" target="_blank">↗ RNZ</a></div>
+
+    <div class="qcard ap"><div class="flag">🇳🇿</div><div class="who">NZSIS</div><div class="meta">Geheimdienst, 4. Threat Assessment · 21.08.2026</div>
+      <blockquote>Öffentliche Benennung Chinas bei Spionage/Einflussnahme: „hard carapace, not a soft underbelly.“</blockquote>
+      <div class="tags"><span class="tag">Spionageabwehr</span></div>
+      <a class="src" href="https://newsroom.co.nz/2026/08/21/nz-swaps-its-soft-underbelly-for-a-hard-shell-by-going-public-on-china-threat/" target="_blank">↗ Newsroom.co.nz</a></div>
+
+  </div>
+</section>
+
+<section id="nahost">
+  <div class="sh"><h2>🌍 Russland · Ukraine · Nahost</h2><span class="cnt">8 Statements</span></div>
+  <div class="grid">
+
+    <div class="qcard ru"><div class="flag">🇺🇦</div><div class="who">Wolodymyr Selenskyj</div><div class="meta">Präsident · 17.–18.10.2026</div>
+      <blockquote>„Russia is trying to cause a blackout in Ukraine — right before winter. Russia is trying to leave millions of our people without electricity and heating.“</blockquote>
+      <div class="tags"><span class="tag tf">Winter 2026/27</span><span class="tag">laufender Angriff</span></div>
+      <a class="src" href="https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703" target="_blank">↗ DW</a></div>
+
+    <div class="qcard ru"><div class="flag">🇺🇦</div><div class="who">Wolodymyr Selenskyj</div><div class="meta">Präsident · 04.11.2026</div>
+      <blockquote>Anweisung an Regierung, binnen 1 Tag Maßnahmenliste für Strom/Heizung/Wasser vorzulegen.</blockquote>
+      <div class="tags"><span class="tag">akut</span><span class="tag">Notfallpläne</span></div>
+      <a class="src" href="https://www.ukrinform.net/rubric-society/4181366" target="_blank">↗ Ukrinform</a></div>
+
+    <div class="qcard ru"><div class="flag">🇺🇦</div><div class="who">Ukrenergo</div><div class="meta">Staatlicher Netzbetreiber · Okt. 2026</div>
+      <blockquote>„To check the schedule in advance to avoid unpleasant situations, including being stuck in an elevator during a power outage.“</blockquote>
+      <div class="tags"><span class="tag">laufende Heizperiode</span><span class="tag">Abschaltpläne</span></div>
+      <a class="src" href="https://finway.com.ua/en/stabilization-power-outages-introduced-ukraine" target="_blank">↗ FinWay</a></div>
+
+    <div class="qcard ru"><div class="flag">🇷🇺</div><div class="who">Sergei Schoigu</div><div class="meta">Sekretär des Sicherheitsrats · 17.03.2026</div>
+      <blockquote>„Против нашей страны действует огромная система — более 50 стран… Мы здесь должны противопоставить высочайшую организованность…“</blockquote>
+      <div class="tags"><span class="tag">keine Frist</span><span class="tag">Infrastrukturschutz</span></div>
+      <a class="src" href="https://ura.news/news/1053077986" target="_blank">↗ ura.news</a></div>
+
+    <div class="qcard ru"><div class="flag">🇮🇱</div><div class="who">Oberst (Res.) Nir Neuman</div><div class="meta">Home Front Command · Okt. 2026</div>
+      <blockquote>„Have water, at least a six-pack… Emergency lighting and batteries, some dry food or canned goods… first aid kit… close the steel window properly.“</blockquote>
+      <div class="tags"><span class="tag">eskalationsabhängig</span><span class="tag">Schutzraum</span></div>
+      <a class="src" href="https://www.jpost.com/israel-news/defense-news/article-886812" target="_blank">↗ Jerusalem Post</a></div>
+
+    <div class="qcard ru"><div class="flag">🇮🇱</div><div class="who">Gen.Maj. Shai Klepper</div><div class="meta">Chef Home Front Command · Okt. 2026</div>
+      <blockquote>„We are aware of the situation and are at full readiness across all sectors…“ — Vorwarnzeit bei Raketen zuletzt &lt;3 Std.</blockquote>
+      <div class="tags"><span class="tag">bei Eskalation Iran</span><span class="tag">Warnsysteme</span></div>
+      <a class="src" href="#" target="_blank">↗ Times of Israel (Liveblog, nicht final verifizierbar)</a></div>
+
+    <div class="qcard ru"><div class="flag">🇮🇷</div><div class="who">Abbas Aliabadi</div><div class="meta">Energieminister · 26.08.2026</div>
+      <blockquote>„The possibility of Iran's electricity network collapsing does not exist.“</blockquote>
+      <div class="tags"><span class="tag">langfristig</span><span class="tag">Dementi</span></div>
+      <a class="src" href="https://www.presstv.ir/Detail/2026/08/26/775103" target="_blank">↗ Press TV</a></div>
+
+    <div class="qcard ru"><div class="flag">🇮🇷</div><div class="who">Mohammad Bagher Ghalibaf</div><div class="meta">Parlamentspräsident · Okt. 2026</div>
+      <blockquote>Forderung nach landesweiter „10% reduction in energy consumption.“</blockquote>
+      <div class="tags"><span class="tag tf">Winter 2026/27</span><span class="tag">Energiesparen</span></div>
+      <a class="src" href="https://www.theyeshivaworld.com/news/israel-news/2616925" target="_blank">↗ The Yeshiva World</a></div>
+
+  </div>
+</section>
+
+<footer>
+  Recherche &amp; Aufbereitung: Lex (Hermes) für otype · Stand 05.11.2026 · nur verifizierbare Primärquellen, keine Panikmache.<br>
+  Vollständiger One-Pager mit allen Details &amp; Methodik: <a href="https://github.com/otype/research-lab/blob/main/docs/2026-11-stromausfall-warnungen-global.md" target="_blank">research-lab · GitHub</a>
+</footer>
+
+</div></body></html>
