@@ -17,6 +17,7 @@
 - Verstärkender Effekt: **Leveraged-ETF-Rebalancing** (laut Nomura ~47 Mrd. USD Verkaufsdruck zum Handelsschluss, zweitgrößter Wert seit Juli 2006) und **Hedgefonds-Deleveraging** (Goldman Sachs: große Multi-Strategy-Fonds "signifikant" im Minus durch KI-Übergewichtung).
 - Kontrast zum Vortag: Am 4.11. waren die Märkte nach dem demokratischen Wahlsieg noch **um ~1.600 Punkte (Dow) gestiegen** — die Rally wurde am 5.11. vollständig ausgelöscht ("schlechtester zweiter Tag nach Midterms seit 1896", laut Yahoo Finance/Jared Blikre).
 - International: Südkoreas Kospi fiel 5,3 %; globaler MSCI-World-Index −3 %.
+- **Präsident Trump** reagierte noch am Abend des 5.11. auf Truth Social und machte die Demokraten verantwortlich (siehe Abschnitt 4).
 
 ---
 
@@ -66,6 +67,20 @@
 | **Yahoo Finance / Investopedia** | Einordnung als „worst second session after a midterm election... since 1896“ (Dow-Datenreihe) | [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html) |
 | **The Economic Times (Indien)** | „Dow plunges 1,800 pts, Nasdaq 5.5% on fears of AI regulations; S&P 500 wipes out $3 trillion.“ | [Economic Times](http://widgets.economictimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms) |
 | **Deutsche Medien (wallstreet-online, MarketScreener)** | „Technologiewerte brechen ein — Furcht vor KI-Regulierung“; Einordnung als Teil eines „Marktfeuers" rund um Zinsentscheidungen (Bank of England) und Schuldenobergrenze-Risiko | [wallstreet-online](http://www.wallstreet-online.de/nachricht/21647814-aktien-new-york-technologiewerte-brechen-furcht-ki-regulierung) · [MarketScreener](https://de.marketscreener.com/boerse-nachrichten/trading-day-ein-marktfeuer-am-5-november-ce785fddda8ff126) |
+
+---
+
+## 4. Reaktion von Präsident Trump
+
+Trump äußerte sich am Abend des 5. November 2026 mehrfach auf Truth Social und gab den Demokraten die Schuld an dem Ausverkauf — ohne auf die zugrunde liegenden Ursachen (KI-Regulierungssorgen, schwache Chip-Zahlen) einzugehen:
+
+| Zeitpunkt | Zitat (wörtlich) | Einordnung | Quelle |
+|---|---|---|---|
+| 5.11.2026, abends | „The Stock Market suffered one of the Worst Days in History based on the results of the Election. Such a sad thing to watch! It took so much work to get us to a level that no one has ever seen before, and then this. Your 401(k)s have, therefore, dropped. Remember, it wasn't Republicans, it was Dumocrats.“ | Schuldzuweisung an Demokraten, Verweis auf Rentenkonten (401(k)) | [Truth Social via Fox Business](https://foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories) |
+| 5.11.2026, abends | „The Stock Market crashed today because the Dumocrats had a big Tuesday — So sad to see, you only have yourselves to blame!“ | Direkte Verknüpfung Ausverkauf ↔ Wahlergebnis | [Truth Social via Axios](https://axios.com/2026/11/06/trump-stock-market-sell-off) |
+| 5.11.2026, abends | „Do not fear, however, we will soon, one way or the other, be BIGGER AND STRONGER THAN EVER BEFORE.“ | Kämpferischer Ausblick | [Truth Social via Axios](https://axios.com/2026/11/06/trump-stock-market-sell-off) |
+
+**Einordnung:** Laut Axios hatte Trump für die vorherigen Rekordhochs an der Börse zuvor noch selbst die Lorbeeren reklamiert — nach dem Ausverkauf verschob sich die Verantwortung rhetorisch vollständig auf die Demokraten. Sein eigenes Vermögen (Anteile an Trump Media) verlor laut Forbes seit den Wahlen über 200 Mio. USD ([Forbes](https://www.forbes.com/sites/antoniopequenoiv/2026/11/05/trump-blames-massive-stock-market-selloff-on-democrats-midterm-success/) · [Forbes/Vermögen](https://www.forbes.com/sites/conormurray/2026/11/05/trump-media-stock-plunges-again-trumps-lost-over-200-million-since-midterms/)).
 
 ---
 
