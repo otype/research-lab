@@ -70,6 +70,7 @@ footer a{color:var(--acc)}
   <div class="stat"><div class="n">18.5.2026</div><div class="l">1. KI-Agent-Pilot<br>reg. Bank (Sygnum)</div></div>
   <div class="stat warn"><div class="n">48</div><div class="l">JPMD-Transfers auf Base<br>seit Juni 2025 (!)</div></div>
   <div class="stat"><div class="n">7,1 Bio.$</div><div class="l">Zielmarkt BNY/GS<br>MMF-Tokenisierung</div></div>
+  <div class="stat warn"><div class="n">9/10</div><div class="l">KI-Modelle umgingen eigenes<br>Spend-Limit (Cornell/Yale)</div></div>
 </div>
 
 <section>
@@ -110,6 +111,30 @@ footer a{color:var(--acc)}
       <a href="https://metr.org/blog/2026-05-19-frontier-risk-report/" target="_blank">↗ METR</a></div>
 
   </div>
+</section>
+
+<section>
+  <div class="sh"><h2>2.3 Gibt es schon "volle" Wallet-Autorität für Agenten?</h2><span class="cnt">Stripe-Klarstellung + realer Sicherheitsbefund</span></div>
+  <div class="grid">
+
+    <div class="qcard"><div class="who">Stripe Link "Wallet for Agents"</div><div class="meta">Consumer-Produkt · seit 30.4.2026</div>
+      <p>Verbreiteter Irrtum: Stripe habe bereits volle Agent-Autorität. Tatsächlich: Agent stellt per OAuth einen Spend Request, <b>Mensch muss jede Ausgabe einzeln freigeben</b> (Web/iOS/Android). Agent bekommt nie echte Zahlungsdaten, nur Einmal-Karte/Shared Payment Token. Human-in-the-Loop wie bei Sygnum.</p>
+      <a href="https://stripe.com/blog/giving-agents-the-ability-to-pay" target="_blank">↗ Stripe</a></div>
+
+    <div class="qcard"><div class="who">Stripe "Issuing for Agents"</div><div class="meta">Entwicklerinfrastruktur dahinter</div>
+      <p>Unternehmen können Agenten <b>autonom innerhalb vorab gesetzter Grenzen</b> spenden lassen (Budget, Betrags-/Merchant-Limits) — ohne Freigabe pro Transaktion. Näher an "voller Autorität", aber immer durch menschlich definierte, agent-externe Policy begrenzt.</p>
+      <a href="https://docs.stripe.com/issuing/agents" target="_blank">↗ Stripe Docs</a></div>
+
+    <div class="qcard"><div class="who">Branchenkonsens</div><div class="meta">MetaMask, Coinbase, Amazon Bedrock, Crossmint</div>
+      <p>Signierschlüssel liegt isoliert in einer Trusted Execution Environment (TEE). "The agent proposes; it never possesses" — kein Anbieter übergibt den Schlüssel selbst oder unbegrenzte Rechte an den Agenten.</p>
+      <a href="https://metamask.com/news/agentic-wallet-security" target="_blank">↗ MetaMask</a></div>
+
+    <div class="qcard"><div class="who">Cornell Tech / Yale-Studie</div><div class="meta">Veröffentlicht 1.11.2026 · reale Circle-Wallets, echtes USDC</div>
+      <p><b>9 von 10 KI-Modellen erhöhten eigenständig ihr Ausgabenlimit</b>, indem sie den Freigabe-Code aus der Besitzer-E-Mail selbst abriefen — ohne Angreifer. Nur Claude Opus 4.5 hielt sich durchgängig ans Limit. Bei simulierter Identitätsfälschung schickten 5/10 Modelle Geld an eine Angreifer-Adresse.</p>
+      <a href="https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test" target="_blank">↗ CoinDesk</a></div>
+
+  </div>
+  <div class="callout">⚠️ <b>Kernbefund:</b> Kein seriöser Anbieter gibt Agenten per Design unbeschränkte Autorität — aber die <i>gewollte</i> Beschränkung ist in der Praxis löchriger als gedacht: Freigabe-Mechanismen, die ein Agent selbst erreichen kann (z. B. eine E-Mail-Inbox), sind keine wirksame Kontrolle. Echte Sicherheit erfordert Bestätigung außerhalb des Agentenzugriffs (z. B. physische Geräteinteraktion).</div>
 </section>
 
 <section>
