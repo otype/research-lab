@@ -18,6 +18,7 @@
 - Kontrast zum Vortag: Am 4.11. waren die Märkte nach dem demokratischen Wahlsieg noch **um ~1.600 Punkte (Dow) gestiegen** — die Rally wurde am 5.11. vollständig ausgelöscht ("schlechtester zweiter Tag nach Midterms seit 1896", laut Yahoo Finance/Jared Blikre).
 - International: Südkoreas Kospi fiel 5,3 %; globaler MSCI-World-Index −3 %.
 - **Präsident Trump** reagierte noch am Abend des 5.11. auf Truth Social und machte die Demokraten verantwortlich (siehe Abschnitt 4).
+- **Update 6.11., mittags:** Der Ausverkauf setzte sich über Nacht in Asien fort (Kospi zeitweise −8,7 %, Nikkei −6 % in den Bärenmarkt), während US-Futures am Freitagmorgen eine Gegenbewegung zeigten (Nasdaq-100-Futures +1,4–1,8 %) — siehe Abschnitt 5.
 
 ---
 
@@ -81,6 +82,29 @@ Trump äußerte sich am Abend des 5. November 2026 mehrfach auf Truth Social und
 | 5.11.2026, abends | „Do not fear, however, we will soon, one way or the other, be BIGGER AND STRONGER THAN EVER BEFORE.“ | Kämpferischer Ausblick | [Truth Social via Axios](https://axios.com/2026/11/06/trump-stock-market-sell-off) |
 
 **Einordnung:** Laut Axios hatte Trump für die vorherigen Rekordhochs an der Börse zuvor noch selbst die Lorbeeren reklamiert — nach dem Ausverkauf verschob sich die Verantwortung rhetorisch vollständig auf die Demokraten. Sein eigenes Vermögen (Anteile an Trump Media) verlor laut Forbes seit den Wahlen über 200 Mio. USD ([Forbes](https://www.forbes.com/sites/antoniopequenoiv/2026/11/05/trump-blames-massive-stock-market-selloff-on-democrats-midterm-success/) · [Forbes/Vermögen](https://www.forbes.com/sites/conormurray/2026/11/05/trump-media-stock-plunges-again-trumps-lost-over-200-million-since-midterms/)).
+
+---
+
+## 5. Update: Freitag, 6. November 2026 (mittags)
+
+Der Ausverkauf setzte sich über Nacht in Asien verstärkt fort, während sich an den US-Futures eine Gegenbewegung andeutete:
+
+| Markt/Wert | Entwicklung | Quelle |
+|---|---|---|
+| Kospi (Südkorea) | **−8,7 % intraday**, Handel per Circuit-Breaker für 20 Min. ausgesetzt, Index fiel unter 5.000 Punkte — schlechtester Tag seit 2025. Samsung & SK Hynix zweistellig im Minus. | [Nikkei Asia](https://asia.nikkei.com/business/markets/taiwan-south-korea-japan-stock-markets-hit-hard-by-ai-sell-off) · [MarketScreener/Dow Jones Newswires](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+| Nikkei 225 (Japan) | **−6 %**, damit in den Bärenmarkt (>20 % unter Hoch) | [CNBC](https://www.cnbc.com/2026/11/06/morning-squawk-blue-wave-stocks.html) · [Washington Post](https://www.washingtonpost.com/business/2026/11/06/asian-european-markets-slide-amid-fears-greater-ai-oversight/) |
+| Hang Seng / Shanghai Composite | je **≈ −1 %** | [Washington Post](https://www.washingtonpost.com/business/2026/11/06/asian-european-markets-slide-amid-fears-greater-ai-oversight/) |
+| Europa (UK, DAX) | **> −2 %**; CAC 40 **−1,8 %**; Stoxx 600 **−1 %** trotz Erholung bei Chipwerten (ASML +3,6 %) | [Washington Post](https://www.washingtonpost.com/business/2026/11/06/asian-european-markets-slide-amid-fears-greater-ai-oversight/) · [MarketScreener](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+| Nasdaq-100-Futures (Freitagmorgen) | **+1,4 bis +1,8 %** | [CoinDesk](https://www.coindesk.com/de/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite) · [MarketScreener](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+| S&P-500-Futures | **+0,35 bis +0,6 %** | [Washington Post](https://www.washingtonpost.com/business/2026/11/06/asian-european-markets-slide-amid-fears-greater-ai-oversight/) · [MarketScreener](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+| Dow-Futures | **−0,55 %** (einziger Index weiter im Minus) | [MarketScreener](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+| Nvidia / AMD / Intel (vorbörslich) | **Nvidia +4–9 %, Intel +5 %**, AMD ebenfalls im Plus — Erholung nach den Donnerstags-Verlusten | [Invezz](https://invezz.com/de/news/2026/11/06/nvidia-amd-und-intel-aktien-erholen-sich-stark-lasst-die-ki-panik-an-der-wall-street-nach/) |
+| 10-jährige US-Staatsanleihe | Rendite stieg leicht auf ~4,84 % vor den Arbeitsmarktdaten | [MarketScreener](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+| Bitcoin | leichte Erholung auf ~76.500 USD | [MarketScreener](https://www.marketscreener.com/news/nasdaq-futures-rally-after-asian-ai-rout-as-investors-brace-for-jobs-day-update-ce785fddd088ff20) |
+
+**Nächster Katalysator:** Der US-Arbeitsmarktbericht (Nonfarm Payrolls) für Oktober wurde am 6.11. um 14:30 Uhr MEZ (8:30 Uhr ET) veröffentlicht und dürfte die Richtung für den weiteren Handelstag vorgeben — erwartet wurden u. a. eine unveränderte Arbeitslosenquote (~4,2 %) und leicht anziehendes Lohnwachstum.
+
+**Analysten-Einordnung:** „Stark gehaltene KI-Aktien können nach heftigen Verlusten zwar eine technische Erholung erleben, ohne dass die zugrunde liegenden Bedenken gelöst wären“, warnte **Steve Sosnick (Interactive Brokers)** gegenüber Reuters — ein überverkaufter Markt bedeute nicht automatisch, dass die strukturellen Fragen zur KI-Finanzierung/-Regulierung geklärt seien. ([Invezz](https://invezz.com/de/news/2026/11/06/nvidia-amd-und-intel-aktien-erholen-sich-stark-lasst-die-ki-panik-an-der-wall-street-nach/))
 
 ---
 
