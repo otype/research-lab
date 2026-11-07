@@ -1,6 +1,6 @@
 # Offizielle Warnungen zu Stromausfällen & Angriffen auf kritische Infrastruktur
 ### Globaler Überblick – Zeitraum: August bis November 2026
-*Stand: 5. November 2026 — reine Faktenbasis, nur verifizierbare Zitate von Amtsträgern/Behörden. Boulevard-/Panik-Quellen ohne offizielles Zitat wurden ausgeschlossen. Alle Quellenlinks wurden einzeln nachrecherchiert und verifiziert.*
+*Stand: 7. November 2026 (Update) — reine Faktenbasis, nur verifizierbare Zitate von Amtsträgern/Behörden. Boulevard-/Panik-Quellen ohne offizielles Zitat wurden ausgeschlossen. Alle Quellenlinks wurden einzeln nachrecherchiert und verifiziert.*
 
 ---
 
@@ -13,6 +13,8 @@
 - **Polen** (Tusk) und die **Philippinen/Südchinesisches Meer** zeigen akute, kurzfristige Lagewarnungen (Tage/Wochen) ohne Bürger-Checkliste.
 - **Taiwan, Südkorea, Israel** haben die konkretesten *zivilen* Vorbereitungsmaßnahmen (Luftschutzübungen, Go-Bags, Schutzraum-Verhalten) – jeweils im Kontext einer konkreten Bedrohungsachse (China/Nordkorea/Iran).
 - **Iran** dementiert offiziell ein Netzkollaps-Risiko, ruft aber intern zu 10 % Energieeinsparung für den Winter auf.
+- **Update 7.11.:** Russland hat die Angriffe auf Ukraines Energienetz massiv eskaliert — 3.–7.11. mehrere Großangriffe (u.a. 172 Drohnen + 36 Raketen am 7.11.), Notabschaltungen in 7 Oblasten, Kyiv zeitweise ohne Wasser/Wärme. Selenskyj: Ziel sei, „Kyiv und das ganze Land in einen Blackout zu stürzen“.
+- **Neu, über Stromnetz hinaus:** Seit Ende Oktober läuft eine europaweite Hybrid-Sabotage-Kampagne gegen zivile Infrastruktur — gehackte Kühlketten-/Kühlhaussteuerungen (Supermärkte, eine französische Blutbank), Bombendrohungswellen gegen Flüge und TV-Sender. Italiens PM Meloni, FBI und Spaniens Außenminister ordnen dies explizit als zusammenhängende Bedrohung ziviler Infrastruktur ein.
 
 ---
 
@@ -79,12 +81,26 @@
 |---|---|---|---|---|---|---|
 | Ukraine | 17.–18.10.2026 | Präsident Wolodymyr Selenskyj | „Russia is trying to cause a blackout in Ukraine — right before winter. Russia is trying to leave millions of our people without electricity and heating.“ | Druck/Sanktionen fordern, Reparaturkräfte im Dauereinsatz | Winter 2026/27 | [DW – "Russia wants blackout in Ukraine as winter comes: Zelenskyy"](https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703) |
 | Ukraine | 04.11.2026 | Präsident Selenskyj | Anweisung an Regierung, binnen 1 Tag Maßnahmenliste für Strom/Heizung/Wasser vorzulegen; Dank an Reparaturkräfte/Energieunternehmen/Katastrophenschutz | Notfallpläne Strom/Heizung/Wasser | akut, Winter | [Ukrinform – Meldung vom 04.11.2026](https://www.ukrinform.net/rubric-society/4181366) |
+| Ukraine | 06.11.2026 | Energieministerium / Vize-Energieminister Artem Nekrasov | „The situation remains most difficult in the capital region“ — neue Stromausfälle nach russischen Angriffen in Vinnytsia, Dnipropetrovsk, Zhytomyr, Zaporizhzhia, Kyiv, Charkiw, Tschernihiw; Ukrenergo meldet Notabschaltungen (5 Stufen) in Kyiv, Kyiv-Oblast, Zhytomyr, Tschernihiw, Tscherkassy | Netzeinschränkungen, Reparaturtrupps im Dauereinsatz | akut, Winter | [Reuters via U.S. News – \"Russian Strikes Cause New Outages in 7 Ukrainian Regions\"](https://usnews.com/news/world/articles/2026-11-06/russian-strikes-cause-new-outages-in-7-ukrainian-regions-kyiv-area-worst-hit-official-says) · [UNN – \"Ministry of Energy revealed Russia's tactics\"](https://unn.ua/en/news/the-ministry-of-energy-revealed-russias-tactics-in-attacks-on-the-energy-sector) |
+| Ukraine | 07.11.2026 | Präsident Selenskyj | Vorwurf, Russland versuche „to plunge Kyiv and the entire country into a blackout“, nach Großangriff mit 172 Drohnen und 36 Raketen auf Kyiv (Umspannwerke, u.a. Anbindung zweier Kernkraftwerke; Brücke über den Dnipro beschädigt); Stadt zeitweise ohne Strom/Wasser/Wärme | Reparatur, Nothilfe, politischer Druck auf Verbündete | akut, Winter | [The Guardian – \"Blackouts and water shortages in Kyiv after Russia strikes Ukraine's energy grid\"](https://theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid) |
 | Ukraine | Okt. 2026 | Ukrenergo (staatlicher Netzbetreiber) | Offizielle Empfehlung: „to check the schedule in advance to avoid unpleasant situations, including being stuck in an elevator during a power outage“ | Abschaltplan vorab prüfen (Website/App), Geräte versetzt einschalten | laufende Heizperiode 2026/27 | [FinWay – "Stabilization power outages introduced in Ukraine"](https://finway.com.ua/en/stabilization-power-outages-introduced-ukraine) |
 | Russland | 17.03.2026 | Sergei Schoigu, Sekretär des Sicherheitsrats | „Против нашей страны действует огромная система — более 50 стран... Мы здесь должны противопоставить высочайшую организованность...“ | Schutz von Energie-/Industrieanlagen, Drohnenabwehr (Rosgvardia-Koordination) | laufend | [ura.news – Meldung vom 17.03.2026](https://ura.news/news/1053077986) |
 | Israel | Okt. 2026 | Oberst (Res.) Nir Neuman, Kommandeur Rishon LeZion Local Emergency Unit, Home Front Command | „Have water, at least a six-pack... Emergency lighting and batteries, some dry food or canned goods... first aid kit... close the steel window properly.“ | Sicherer Raum, Wasser, Notbeleuchtung, Konserven, Erste-Hilfe-Set | unbestimmt, eskalationsabhängig | [Jerusalem Post – Artikel 886812](https://www.jpost.com/israel-news/defense-news/article-886812) |
 | Israel | Okt. 2026 | Generalmajor Shai Klepper, Chef Home Front Command | „We are aware of the situation and are at full readiness across all sectors...“ – Vorwarnzeit bei Raketen zuletzt < 3 Std. | Warnsysteme, Schutzräume, zivile Reaktionsfähigkeit verbessern | bei möglicher Wiederaufnahme Iran-Krieg | Times of Israel – Liveblog (Quelle im Rechercheprotokoll vermerkt, konkrete URL beim nächsten Durchlauf nachzuprüfen) |
 | Iran | 26.08.2026 | Energieminister Abbas Aliabadi | „The possibility of Iran's electricity network collapsing does not exist“ – Netz widerstehe auch „full-scale enemy attack“ | Eigenproduktion Netzequipment, dezentrales Netz, Wind-/Geothermiekraftwerke | laufend/langfristig | [Press TV – Artikel 775103, 26.08.2026](https://www.presstv.ir/Detail/2026/08/26/775103) |
 | Iran | Okt. 2026 | Parlamentspräsident Mohammad Bagher Ghalibaf | Forderung nach landesweiter „10% reduction in energy consumption“ | 10 % Energieeinsparung, 2 Tage/Woche Home-Office für Staatsbedienstete, Mazut (Schweröl) als Ersatzbrennstoff | Winter 2026/27 | [The Yeshiva World – Artikel 2616925](https://www.theyeshivaworld.com/news/israel-news/2616925) |
+
+---
+
+## 5. Update 7.11.2026: Europaweite Hybrid-Sabotage-Kampagne (über Stromnetz hinaus)
+
+| Land/Org | Datum | Person/Titel | Zitat (wörtlich) | Kontext | Quelle |
+|---|---|---|---|---|---|
+| Italien | 06.11.2026 | Giorgia Meloni, Ministerpräsidentin | „Right now we're not able to say whether the attack on plasma in France, the fake bomb threats on planes, or the assaults targeting food products are all connected. But they definitely all tell us the same thing: today, what is under attack are civilian infrastructures.“ | Reaktion auf Kühlketten-Hacks, Bombendrohungswelle, Blutbank-Angriff | [Daily Sabah – \"Italy's PM Meloni warns civilian infrastructure under attack\"](https://www.dailysabah.com/world/europe/italys-pm-meloni-warns-civilian-infrastructure-under-attack) |
+| USA | 05.11.2026 | Brett Leatherman, FBI Cyber Division Chief | FBI/CISA/HHS/USDA-Warnung: Angreifer manipulieren weltweit Kühlketten-/Kühlhaussteuerungen; Ziel seien Lebensmittel-, Gesundheits- und Transportinfrastruktur | Gemeinsames Advisory nach Angriffswelle Frankreich (250–350 Supermärkte Okt., 115+ Filialen in 6 Ländern Anfang Nov., eine franz. Blutbank) | [Bleeping Computer – \"FBI, CISA warn of cyberattacks targeting refrigeration systems\"](https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/) · [NPR – \"Healthcare industry warned following cyberattack on French blood bank\"](https://www.npr.org/2026/11/06/nx-s1-6032602/cyberattack-blood-bank-healthcare) |
+| Spanien | 07.11.2026 | José Manuel Albares, Außenminister | Einordnung der Vorfallwelle (Flug-Bombendrohungen, Newsroom-Drohungen gegen RTÉ/Sky/Nova TV, Infrastruktur-Sabotage) als mögliche „hybride Kriegsführung“/psychologische Kriegsführung | Reaktion auf eskalierende Drohungswelle in ganz Europa | [Euro Weekly News – \"FBI warns of cyber threats as Spain raises hybrid war fears\"](https://euroweeklynews.com/2026/11/07/fbi-warns-of-cyber-threats-as-spain-raises-hybrid-war-fears/) |
+
+**Einordnung:** Diese Welle ist bislang nicht eindeutig auf einen Staat zurückgeführt (FBI stellt explizit **keine** Verbindung zwischen Kühlketten-Hacks und Bombendrohungen her); pro-russische Gruppen (NoName057(16), Z-Pentest Alliance) reklamieren die Kühlketten-Angriffe nachträglich für sich, ohne dass dies unabhängig verifiziert wäre. Aufgenommen, weil erstmals Regierungschef-Ebene (Meloni) und eine Bundesbehörde (FBI) zivile Infrastruktur jenseits des Stromnetzes (Kühlketten, Blutversorgung, Flugverkehr, Medien) explizit als zusammenhängendes Ziel benennen.
 
 ---
 
@@ -100,4 +116,4 @@
 
 **Methodischer Hinweis:** Alle Zitate stammen aus Primärquellen (Regierungs-/Behördenseiten, offizielle Reden) oder seriösen Nachrichtenagenturen (Reuters, AP, dpa, Kyodo, BBC) mit direkter Zitatwiedergabe. Artikel ohne verifizierbares Zitat einer konkreten Person/Behörde wurden ausgeschlossen (betrifft u.a. zahlreiche Boulevard-Stücke zu „90 Tage ohne Strom“). Alle Links wurden einzeln via Websuche nachrecherchiert und stichprobenartig geprüft; eine URL (Times of Israel Liveblog) konnte nicht final verifiziert werden und ist entsprechend markiert.
 
-*Recherche KI-unterstützt erzeugt am 05.11.2026 für otype.*
+*Recherche KI-unterstützt erzeugt am 05.11.2026, aktualisiert am 07.11.2026, für otype.*
