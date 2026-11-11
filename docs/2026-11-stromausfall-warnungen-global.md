@@ -1,6 +1,6 @@
 # Offizielle Warnungen zu Stromausfällen & Angriffen auf kritische Infrastruktur
 ### Globaler Überblick – Zeitraum: August bis November 2026
-*Stand: 7. November 2026 (Update) — reine Faktenbasis, nur verifizierbare Zitate von Amtsträgern/Behörden. Boulevard-/Panik-Quellen ohne offizielles Zitat wurden ausgeschlossen. Alle Quellenlinks wurden einzeln nachrecherchiert und verifiziert.*
+*Stand: 11. November 2026 (Update) — reine Faktenbasis, nur verifizierbare Zitate von Amtsträgern/Behörden. Boulevard-/Panik-Quellen ohne offizielles Zitat wurden ausgeschlossen. Alle Quellenlinks wurden einzeln nachrecherchiert und verifiziert.*
 
 ---
 
@@ -15,6 +15,7 @@
 - **Iran** dementiert offiziell ein Netzkollaps-Risiko, ruft aber intern zu 10 % Energieeinsparung für den Winter auf.
 - **Update 7.11.:** Russland hat die Angriffe auf Ukraines Energienetz massiv eskaliert — 3.–7.11. mehrere Großangriffe (u.a. 172 Drohnen + 36 Raketen am 7.11.), Notabschaltungen in 7 Oblasten, Kyiv zeitweise ohne Wasser/Wärme. Selenskyj: Ziel sei, „Kyiv und das ganze Land in einen Blackout zu stürzen“.
 - **Neu, über Stromnetz hinaus:** Seit Ende Oktober läuft eine europaweite Hybrid-Sabotage-Kampagne gegen zivile Infrastruktur — gehackte Kühlketten-/Kühlhaussteuerungen (Supermärkte, eine französische Blutbank), Bombendrohungswellen gegen Flüge und TV-Sender. Italiens PM Meloni, FBI und Spaniens Außenminister ordnen dies explizit als zusammenhängende Bedrohung ziviler Infrastruktur ein.
+- **Update 11.11.:** Russland eskalierte die Angriffe auf Ukraines Energienetz in der Woche 02.–08.11. auf **128 gezielte Treffer**, so Vize-Energieminister Nekrasov. In der Nacht 09./10.11. und 10./11.11. folgten zwei weitere Großangriffswellen auf Umspannwerke in zusammen 10+ Oblasten; Premierminister Koretskyi meldete zwei Tote. Kyiv schaltet deshalb die Straßenbeleuchtung ab. IAEA-Generaldirektor Grossi verurteilte zudem den Tod von zwei Kraftwerksmitarbeitern durch Drohnenangriffe als „unacceptable“.
 
 ---
 
@@ -104,6 +105,19 @@
 
 ---
 
+## 6. Update 11.11.2026: Weitere Eskalation — 128 Angriffe/Woche, zwei Kraftwerksmitarbeiter getötet, IAEA-Kritik
+
+| Land/Org | Datum | Person/Titel | Zitat (wörtlich) | Kontext | Quelle |
+|---|---|---|---|---|---|
+| Ukraine | 09.11.2026 | Artem Nekrasov, 1. Vize-Energieminister | „Power engineers are working flat out to restore stable power supply to consumers as quickly as possible.“ — Russland griff Energie-/Öl-/Gasinfrastruktur zwischen dem 2. und 8.11. **128 Mal** an (219 Schäden/Zerstörungen insgesamt); Lage in Dnipropetrovsk und Kyiv am schwierigsten | Wochenbriefing zur Netzlage | [Ukrainska Pravda – "Russia strikes Ukrainian energy sector 128 times in a week"](https://www.pravda.com.ua/eng/news/2026/11/09/8061942) |
+| Ukraine | 09.11.2026 | Rafael Mariano Grossi, IAEA-Generaldirektor | „strongly“ condemned the „unacceptable“ drone attacks that killed a Zaporizhzhya-NPP-Mitarbeiter und einen Mitarbeiter des benachbarten Wärmekraftwerks; Personal müsse ohne „undue stress or fear“ arbeiten können | Zwei getötete Kraftwerksmitarbeiter binnen eines Tages, dritter Todesfall seit 29.10. | [Anadolu Agency (AA) – "UN nuclear watchdog condemns drone attacks killing 2 power plant workers in Ukraine"](https://f.aa.com.tr/en/world/un-nuclear-watchdog-condemns-drone-attacks-killing-2-power-plant-workers-in-ukraine/4117555) · [NucNet – "Increased Military Activity Means 'Persistent Dangers' For Ukraine's Nuclear Plants"](https://www.nucnet.org/news/increased-military-activity-means-persistent-dangers-for-ukraine-s-nuclear-plants-11-1-2026) |
+| Ukraine | 10.11.2026 | Serhii (Sergiy) Koretskyi, Premierminister | Meldung auf Telegram: Russland traf Umspannwerke in Poltava, Dnipropetrovsk, Vinnytsia und Kirovohrad; 2 Tote in Vinnytsia | Großangriff auf 10 Regionen parallel zu den dreiseitigen Gesprächen (Ukraine/Russland/USA) in Abu Dhabi | [Reuters via U.S. News – "Russia Pounds Ukraine's Power Grid as Talks Open in Abu Dhabi"](https://www.usnews.com/news/world/articles/2026-11-10/russia-pounds-ukraines-power-grid-as-talks-open-in-abu-dhabi) |
+| Ukraine | 10.–11.11.2026 | Serhii Koretskyi, Premierminister | Telegram-Meldung: 6 Umspannwerke in Vinnytsia, Kirovohrad, Zhytomyr und Cherkasy getroffen, Stromleitungen in Kirovohrad/Rivne beschädigt; Fernwärmeanlage in Kryvyi Rih ebenfalls getroffen | Zweite Großangriffsnacht in Folge; Kyiv schaltet als Sparmaßnahme die Straßenbeleuchtung ab (Kyivmisksvitlo) | [Kyiv Independent – "Russia strikes 6 major power substations, causing outages across Ukraine"](https://kyivindependent.com/russia-strikes-6-major-power-substations-causing-outages-across-ukraine) |
+
+**Einordnung:** Die Eskalation setzt sich trotz (bzw. parallel zu) den am 10./11.11. in Abu Dhabi laufenden dreiseitigen Gesprächen zwischen Russland, Ukraine und den USA fort — russischer Außenminister Lawrow lehnte laut Reuters einen sofortigen Waffenstillstand ohne Klarheit über die Folgen ab. Erstmals in diesem Zeitraum bestätigt auch die IAEA (nicht nur ukrainische Stellen) den Tod von Kraftwerkspersonal durch Drohnenangriffe und wiederholt ihre Warnung vor einem Totalausfall der Außenstromversorgung an ukrainischen Atomkraftwerken.
+
+---
+
 ## Fazit: Zeiträume im Vergleich
 
 | Zeitraum | Länder/Institutionen |
@@ -116,4 +130,4 @@
 
 **Methodischer Hinweis:** Alle Zitate stammen aus Primärquellen (Regierungs-/Behördenseiten, offizielle Reden) oder seriösen Nachrichtenagenturen (Reuters, AP, dpa, Kyodo, BBC) mit direkter Zitatwiedergabe. Artikel ohne verifizierbares Zitat einer konkreten Person/Behörde wurden ausgeschlossen (betrifft u.a. zahlreiche Boulevard-Stücke zu „90 Tage ohne Strom“). Alle Links wurden einzeln via Websuche nachrecherchiert und stichprobenartig geprüft; eine URL (Times of Israel Liveblog) konnte nicht final verifiziert werden und ist entsprechend markiert.
 
-*Recherche KI-unterstützt erzeugt am 05.11.2026, aktualisiert am 07.11.2026, für otype.*
+*Recherche KI-unterstützt erzeugt am 05.11.2026, aktualisiert am 07.11.2026 und 11.11.2026, für otype.*
