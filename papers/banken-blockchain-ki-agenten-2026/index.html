@@ -2,54 +2,89 @@
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>🏦 Banken auf der Blockchain &amp; KI-Agenten-Zugang</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,600&family=Libre+Franklin:wght@400;600;700&display=swap');
 :root{
-  --bg:#0f1419;--bg2:#161d26;--card:#1b2430;--card2:#212b3a;
-  --ink:#eef2f6;--mut:#8b9bb0;--line:#2a3747;
-  --acc:#4fd1c5;--acc2:#ffb020;--warn:#ff8a4f;--ok:#5ce593;
+  --paper:#fbfaf6;--ink:#121212;--ink2:#333;--mut:#666;--line:#dcd9d0;--rule:#121212;
+  --link:#326891;--ok:#2e6b3f;--warn:#a3321f;
+  --acc:#0f5e63;--acc2:#0f5e63;
+  --serif:Georgia,'Times New Roman',Times,serif;
+  --head:'Playfair Display',Georgia,'Times New Roman',serif;
+  --sans:'Libre Franklin','Franklin Gothic Medium','Helvetica Neue',Arial,sans-serif;
+  --mast:'Playfair Display',Georgia,serif;
 }
 *{box-sizing:border-box}
-body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
-.w{max-width:1100px;margin:0 auto;padding:28px 20px 60px}
-a{color:var(--acc)}
-a.back{color:var(--acc);text-decoration:none;font-weight:600;font-size:14px}
+body{margin:0;font:17px/1.6 var(--serif);background:var(--paper);color:var(--ink)}
+.w{max-width:1100px;margin:0 auto;padding:22px 24px 70px}
+a{color:var(--link)}
+a:hover{color:var(--ink)}
+b{color:var(--ink)}
 
-header{text-align:center;margin-bottom:28px}
-header .tag{display:inline-block;background:var(--card2);border:1px solid var(--line);color:var(--mut);
-  font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:4px 12px;border-radius:999px;margin-bottom:14px}
-h1{font-size:clamp(26px,4vw,40px);margin:0 0 8px;line-height:1.15;
-  background:linear-gradient(90deg,#fff,#9fe8e0);-webkit-background-clip:text;background-clip:text;color:transparent}
-.sub{color:var(--mut);font-size:15px;max-width:720px;margin:0 auto}
-.sub b{color:var(--ink)}
+/* Masthead + Nav-Leiste */
+.w::before{content:"Die Recherche";display:block;text-align:center;font:900 clamp(40px,7vw,72px)/1 var(--mast);text-transform:uppercase;
+  color:var(--ink);padding:10px 0 12px;border-bottom:1px solid var(--rule);letter-spacing:.055em}
+a.back{display:block;text-align:center;text-decoration:none;color:var(--ink);font:700 11.5px/1 var(--sans);
+  text-transform:uppercase;letter-spacing:.14em;padding:9px 0;border-bottom:3px double var(--rule);margin-bottom:34px}
+a.back:hover{color:var(--acc)}
 
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:26px 0}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
-.stat .n{font-size:26px;font-weight:800;color:var(--acc)}
-.stat .n.warn{color:var(--warn)}
-.stat .l{font-size:12px;color:var(--mut);margin-top:4px}
+/* Artikelkopf */
+header{text-align:center;margin:0 auto 30px;max-width:860px;padding-bottom:26px;border-bottom:1px solid var(--line)}
+header .tag{display:inline-block;color:var(--acc);font:700 12px/1.3 var(--sans);text-transform:uppercase;
+  letter-spacing:.14em;margin-bottom:14px;padding-bottom:6px;border-bottom:2px solid var(--acc)}
+h1{font:700 clamp(30px,5vw,50px)/1.1 var(--head);margin:0 0 16px;color:var(--ink);letter-spacing:-.01em}
+.sub{color:var(--ink2);font:italic 19px/1.55 var(--serif);max-width:760px;margin:0 auto}
+.sub b{color:var(--ink);font-style:normal}
 
-section{margin:40px 0}
-.sh{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
-.sh h2{font-size:20px;margin:0}
-.sh .cnt{color:var(--mut);font-size:13px}
+/* Zahlen-Leiste */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0;margin:30px 0 10px;
+  border-top:2px solid var(--rule);border-bottom:1px solid var(--rule)}
+.stat{padding:16px 14px 14px;text-align:center;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:-1px}
+.stat .n{font:900 30px/1.15 var(--head);color:var(--acc)}
+.stat .n.ok,.stat.ok .n{color:var(--ok)}
+.stat .n.warn,.stat.warn .n{color:var(--warn)}
+.stat .l{font:600 11px/1.45 var(--sans);color:var(--mut);margin-top:6px;text-transform:uppercase;letter-spacing:.06em}
 
-table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:13.5px}
-th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
-th{background:var(--card2);color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+/* Abschnitte */
+section{margin:52px 0}
+.sh{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;margin-bottom:18px;padding-top:10px;border-top:2px solid var(--rule)}
+.sh h2{font:700 26px/1.2 var(--head);margin:0;color:var(--ink)}
+.sh .cnt{color:var(--mut);font:600 11px/1.4 var(--sans);text-transform:uppercase;letter-spacing:.1em}
+
+/* Tabellen */
+table{width:100%;border-collapse:collapse;background:transparent;font:15px/1.5 var(--serif);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+th,td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--ink);font:700 11px/1.3 var(--sans);text-transform:uppercase;letter-spacing:.08em;border-bottom:1px solid var(--rule);background:transparent}
+td:first-child{font-weight:700}
 tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:rgba(0,0,0,.022)}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
-.qcard{background:var(--card);border-radius:14px;padding:16px;border-top:4px solid var(--acc)}
-.qcard .who{font-weight:700;font-size:14.5px;margin:0 0 2px}
-.qcard .meta{color:var(--mut);font-size:12px;margin-bottom:8px}
-.qcard p{margin:0 0 10px;font-size:13.5px;line-height:1.5;color:#dfe7ee}
+/* Zitate als Pull-Quotes */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px 34px}
+.qcard{position:relative;padding:16px 0 4px;border-top:3px solid var(--acc2);background:transparent}
+.qcard .who{font:700 12.5px/1.35 var(--sans);text-transform:uppercase;letter-spacing:.08em;margin:0 0 3px;color:var(--ink)}
+.qcard .meta{color:var(--mut);font:italic 14px/1.4 var(--serif);margin-bottom:12px}
+.qcard blockquote{margin:0 0 12px;font:italic 400 19px/1.45 var(--head);color:var(--ink);padding:0}
+.qcard p{margin:0 0 12px;font:16px/1.55 var(--serif);color:var(--ink2)}
+.qcard .src,.qcard > a{display:inline-block;margin-top:4px;font:600 11.5px/1.3 var(--sans);text-transform:uppercase;
+  letter-spacing:.06em;text-decoration:none;color:var(--link)}
+.qcard .src:hover,.qcard > a:hover{text-decoration:underline}
 
-.callout{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:14px;padding:16px 18px;font-size:13.5px;color:#dfe7ee;margin-top:14px}
-.fazit{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc2);border-radius:14px;padding:18px 20px;font-size:14px;color:#dfe7ee}
+/* Kasten & Fazit */
+.callout{margin-top:22px;padding:16px 22px;border-left:4px solid var(--acc);background:rgba(0,0,0,.03);
+  font:16.5px/1.6 var(--serif);color:var(--ink2)}
+.fazit{padding:22px 0 18px;border-top:3px double var(--rule);border-bottom:1px solid var(--rule);
+  font:18.5px/1.7 var(--serif);color:var(--ink);columns:2 340px;column-gap:40px;column-rule:1px solid var(--line)}
+.fazit::first-letter{float:left;font:900 4.4em/.82 var(--head);color:var(--acc);padding:6px 10px 0 0}
 
-footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:var(--mut);font-size:12.5px;text-align:center}
-footer a{color:var(--acc)}
+/* Fussnote */
+footer{margin-top:64px;padding-top:18px;border-top:3px double var(--rule);color:var(--mut);font:12.5px/1.8 var(--sans);text-align:center;letter-spacing:.02em}
+footer a{color:var(--ink);font-weight:600}
 
-@media (max-width:600px){table,thead,tbody,th,td,tr{font-size:12px}}
+@media (max-width:600px){
+  body{font-size:16px}
+  .sub{font-size:17px}
+  table,thead,tbody,th,td,tr{font-size:13px}
+  .qcard blockquote{font-size:17.5px}
+}
 </style></head>
 <body><div class="w">
 
