@@ -21,7 +21,9 @@
 - **Präsident Trump** reagierte noch am Abend des 5.11. auf Truth Social und machte die Demokraten verantwortlich (siehe Abschnitt 4).
 - **Update 9.–11.11.:** Der KI-Trade erholte sich binnen drei Handelstagen fast vollständig (Dow +1.104 Pkt./+2,2 % am 9.11., bester S&P-500-Tag seit April), während **Nvidia-CEO Jensen Huang** wegen einer Affäre mit einer laut *New York Times* mutmaßlichen chinesischen Spionin unter Beschuss geriet — Nvidia-Vorstand leitete eine unabhängige Untersuchung ein, die Aktie verlor bis Dienstag zusätzlich ~14 % im November (≈700 Mrd. USD Marktwert), bevor eine starke CoreWeave-Quartalszahl am 11.11. eine breite Chip-Rally auslöste. Siehe Abschnitt 6.
 - **Update 6.11., mittags:** Der Ausverkauf setzte sich über Nacht in Asien fort (Kospi zeitweise −8,7 %, Nikkei −6 % in den Bärenmarkt), während US-Futures am Freitagmorgen eine Gegenbewegung zeigten (Nasdaq-100-Futures +1,4–1,8 %) — siehe Abschnitt 5.
-- **Update 25.11.:** Nvidias Vorstand reaktivierte **Jensen Huang** als CEO (Montag 23.11., Aktie **+31,5 %**), doch die Rally kippte binnen zwei Tagen in einen neuen, breiten Ausverkauf — **Nvidia −9 %, AMD −10 %, Broadcom −6,3 %, Micron −11 %** am Mittwoch, verstärkt durch Kreditsorgen, einen **VIX-Sprung von +18 %** und **Anthropic**, das erstmals unter seinen IPO-Preis von 83 USD fiel. **David Morrison** (Trade Nation) warnte vor anhaltender Nervosität am Markt. Siehe Abschnitt 8.
+- **Update 25.11.:** Nvidias Vorstand reaktivierte **Jensen Huang** als CEO (Montag 23.11., Aktie **+31,5 %**), doch die Rally kippte binnen zwei Tagen in einen neuen, breiten Ausverkauf — **Nvidia −9 %, AMD −10 %, Broadcom −6,3 %, Micron −11 %** am Mittwoch, verstärkt durch Kreditsorgen, einen **VIX-Sprung von +18 %** und **Anthropic**, das erstmals unter seinen IPO-Preis von 83 USD fiel. **David Morrison** (Trade Nation) warnte vor anhaltender Nervosität am Markt. Siehe Abschnitt 10.
+- **Update 18.11.:** **Jensen Huang** trat am 12.11. überraschend als CEO zurück (zweite, bis dahin unbekannte Affäre); **Colette Kress** wurde Interims-CEO, der Board schloss laut Chairman **Harvey Jones** eine Rückkehr Huangs „nicht" aus. Neue US-Exportkontrollen für KI-Rechenzentren in Südostasien (Taiwans Taiex −6 %) und ein über Konsens liegendes Nvidia-Quartalsergebnis (115,8 Mrd. USD Umsatz) folgten binnen einer Woche. Siehe Abschnitt 8.
+- **Update 20.11.:** Trotz Rekordquartal verzeichnete Nvidia die siebte Verlustsitzung in Folge — **Michael Burry** nahm die Hälfte seiner Nvidia/SMH-Puts gewinnbringend vom Tisch, hielt seine Nasdaq-100-Shorts aber unverändert. Siehe Abschnitt 9.
 
 ---
 
@@ -151,12 +153,44 @@ Eine Woche nach dem Ausverkauf vom 5. November bleibt die Lage an der Wall Stree
 
 ---
 
-## 8. Update: 23.–25. November 2026 — Huang-Rückkehr löst Rally aus, dann neuer Ausverkauf wegen Kreditsorgen
+## 8. Update: 12.–18. November 2026 — Huang-Rücktritt, Exportkontrollen, Nvidia-Zahlen
 
-Nvidias Vorstand schloss am 23. November seine Untersuchung zur Huang-Affäre (siehe Abschnitt 6) ab und bestätigte
-Jensen Huang als CEO. Die Erleichterungs-Rally hielt jedoch nur zwei Handelstage — danach kippte die Stimmung in
-einen breiten Ausverkauf des gesamten KI-/Chip-Sektors, diesmal getrieben von Kreditmarkt-Sorgen statt der
-Governance-Frage.
+| Datum/Quelle | Ereignis/Zahl | Quelle |
+|---|---|---|
+| **NVIDIA Board of Directors**, Donnerstag 12.11. | „NVIDIA Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.“ Auslöser laut NYT: eine zweite, bislang unbekannte Affäre mit einer ihm unterstellten Führungskraft. | [NVIDIA Newsroom](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition) |
+| **Colette Kress**, CFO, neue Interims-CEO | „NVIDIA's strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years.“ | [NVIDIA Newsroom](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition) |
+| **Harvey Jones**, erster Board-Chairman von Nvidia, 17.11. | „The Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.“ | [CNBC](https://cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html) |
+| **Investing.com/Reuters**, Montag 16.11. | Neue US-Exportregeln verlangen Lizenzen für KI-Rechenzentren in Singapur, Malaysia, Thailand, Indonesien und Brasilien gegen Umgehung der China-Chipexportbeschränkungen. MSCI-Asia-Pacific −1,2 %, Tech-Subindex −3,6 %. | [Investing.com](https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-us-tightens-ai-chip-curbs-ahead-of-nvidia-results-5031571) |
+| **Bloomberg**, Montag 16.11. | Taiwans Taiex fiel 6 % — stärkster Tagesverlust seit 17. Juli —, belastet durch TSMC/MediaTek sowie Kapitalabzug für die bevorstehende Anthropic-Börsennotierung. Advantest −10,4 %, Lasertec −10,7 %, Samsung −5,8 %, SK Hynix −4,2 %. | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew) |
+| **NVIDIA Investor Relations**, Dienstag 17.11. — Q3 GJ2027 | Umsatz 115,8 Mrd. USD (+103 % YoY), Data-Center-Umsatz 107,6 Mrd. USD (+110 % YoY); non-GAAP EPS 2,68 USD ggü. 2,48 USD erwartet (LSEG). Q4-Ausblick 130 Mrd. USD ggü. 125,1 Mrd. USD Konsens — erstes Zahlenwerk seit Huangs Rücktritt. | [NVIDIA Investor Relations](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx) |
+
+**Einordnung:** Die Vorstandsuntersuchung aus Abschnitt 6 endete nicht mit einer Entlastung, sondern mit Huangs
+Rücktritt wegen einer zweiten, bis dahin unbekannten Affäre. Interims-CEO Colette Kress führte Nvidia durch neue
+US-Exportkontrollen und ein über Konsens liegendes Quartalsergebnis, während der Board laut Jones eine Rückkehr
+Huangs explizit ausschloss.
+
+---
+
+## 9. Update: 20. November 2026 — Burry nimmt Teilgewinne, Chip-Ausverkauf hält an
+
+| Datum/Quelle | Ereignis/Zahl | Quelle |
+|---|---|---|
+| **Michael Burry**, „The Big Short"-Investor, Cassandra Unchained | Verkaufte am 20.11. die Hälfte seiner Nvidia- und SMH-Put-Optionen mit „substantiellem" Gewinn, ließ die bärischen April-2027-Nasdaq-100-Puts aber komplett unangetastet. Zusätzlich rund ein Drittel der Zoetis-Calls gewinnbringend verkauft. | [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/michael-burry-locks-gains-nvidia-183241854.html) |
+| **Colette Kress**, Interims-CEO/CFO, Nvidia | Rekordumsatz von 115,8 Mrd. USD (+109 % Nettogewinn auf 64,9 Mrd. USD), Q4-Prognose 130 Mrd. USD, Wachstumsprognose FY2028 auf 75 % angehoben — stoppte den Kursrückgang trotzdem nicht. | [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/michael-burry-locks-gains-nvidia-183241854.html) |
+| **Rep. Brett Guthrie**, Vorsitzender, House Energy &amp; Commerce Committee | Forderte Nvidia-Manager auf, bis spätestens Dezember vor dem Ausschuss zu erscheinen — Hintergrund: Untersuchung, ob Nvidia die Commerce-Department-Prüfung zum Chip-Umlenkungsfall Megaspeed (Singapur) beeinflusst habe. | [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/michael-burry-locks-gains-nvidia-183241854.html) |
+
+**Einordnung:** Nvidia verzeichnete trotz Rekordquartalszahlen die siebte Verlustsitzung in Folge und die schwächste
+Woche seit November 2018 (QQQ −9 %, AMD −11 %, Micron −13 %). Burrys Teilverkauf betrifft nur die taktischen
+Nvidia/SMH-Puts — seine strukturelle Nasdaq-100-Short-Position blieb unverändert.
+
+---
+
+## 10. Update: 23.–25. November 2026 — Huang-Rückkehr löst Rally aus, dann neuer Ausverkauf wegen Kreditsorgen
+
+Trotz Harvey Jones' Ansage vom 17.11., der Board werde Huang „nicht" reinstallieren, bestätigte Nvidias Vorstand
+am 23. November überraschend doch wieder Jensen Huang als CEO. Die Erleichterungs-Rally hielt jedoch nur zwei
+Handelstage — danach kippte die Stimmung in einen breiten Ausverkauf des gesamten KI-/Chip-Sektors, diesmal
+getrieben von Kreditmarkt-Sorgen statt der Governance-Frage.
 
 | Datum/Quelle | Ereignis/Zahl | Quelle |
 |---|---|---|
@@ -179,6 +213,6 @@ benannten Marktstrategen, der die Alleinabhängigkeit der Rally von Huangs Rück
 
 ## Fazit
 
-Der Ausverkauf vom 5. November 2026 war **kein isolierter "Crash"**, sondern die abrupte Umkehr einer **einzigen Handelssitzung Euphorie** (demokratischer Wahlsieg am 3./4.11. wurde zunächst positiv gedeutet) in **breite Risikoaversion**, ausgelöst durch die Sorge vor politischem Gegenwind für den KI-Infrastruktur-Ausbau, verstärkt durch schwache Chip-Zahlen und mechanische Verkaufswellen (Leveraged-ETFs, Hedgefonds-Deleveraging, Volatilitäts-Hedging). Mehrere Analysten (Sosnick/Interactive Brokers, O'Rourke/JonesTrading) betonen, dass die eigentliche Frage ist, ob die Neubewertung des KI-Trades **strukturell/dauerhaft** oder nur eine **kurzfristige Positionsbereinigung** ist — Stand 5./6.11.2026 war das laut den zitierten Quellen offen. **Update 11.11.:** Der KI-Trade hat sich binnen einer Woche zahlenmäßig weitgehend erholt (YTD-Gewinne aller drei Indizes nahezu wiederherstellt), doch die politische Unsicherheit wurde durch ein neues, unternehmensspezifisches Risiko ergänzt — die Nvidia-Vorstandsuntersuchung zur Affäre von CEO Jensen Huang. Ob die Rally nachhaltig ist, gilt laut Baird Strategas als noch nicht erwiesen. **Update 14.11.:** Eine Woche später hat sich die Debatte von der politischen Regulierungsfrage zur grundsätzlicheren Frage der **Finanzierbarkeit des KI-Investitionszyklus** verschoben — Capital Economics (Vicky Redwood) und Bank of America (Michael Hartnett) sehen bis 2027 wachsende Risiken durch negativen freien Cashflow der Hyperscaler und ein mögliches S&P-500-Abwärtspotenzial von bis zu 12 %, während Morgan Stanley, Cathie Wood und Yardeni Research den Bullenmarkt intakt sehen. **Update 25.11.:** Nvidias Vorstand bestätigte Jensen Huang als CEO und löste eine kurze Rally aus (+31,5 %), die binnen zwei Tagen in einen neuen, breiten Ausverkauf kippte — diesmal laut MarketWatch getrieben von Kreditmarkt-Sorgen statt der Governance-Frage, mit Anthropic erstmals unter IPO-Preis und einer Warnung von David Morrison (Trade Nation), dass die Alleinabhängigkeit der Rally von Huang „reeks of desperation“. Eine Entscheidung zwischen beiden Lagern steht laut den zitierten Quellen weiterhin aus.
+Der Ausverkauf vom 5. November 2026 war **kein isolierter "Crash"**, sondern die abrupte Umkehr einer **einzigen Handelssitzung Euphorie** (demokratischer Wahlsieg am 3./4.11. wurde zunächst positiv gedeutet) in **breite Risikoaversion**, ausgelöst durch die Sorge vor politischem Gegenwind für den KI-Infrastruktur-Ausbau, verstärkt durch schwache Chip-Zahlen und mechanische Verkaufswellen (Leveraged-ETFs, Hedgefonds-Deleveraging, Volatilitäts-Hedging). Mehrere Analysten (Sosnick/Interactive Brokers, O'Rourke/JonesTrading) betonen, dass die eigentliche Frage ist, ob die Neubewertung des KI-Trades **strukturell/dauerhaft** oder nur eine **kurzfristige Positionsbereinigung** ist — Stand 5./6.11.2026 war das laut den zitierten Quellen offen. **Update 11.11.:** Der KI-Trade hat sich binnen einer Woche zahlenmäßig weitgehend erholt (YTD-Gewinne aller drei Indizes nahezu wiederherstellt), doch die politische Unsicherheit wurde durch ein neues, unternehmensspezifisches Risiko ergänzt — die Nvidia-Vorstandsuntersuchung zur Affäre von CEO Jensen Huang. Ob die Rally nachhaltig ist, gilt laut Baird Strategas als noch nicht erwiesen. **Update 14.11.:** Eine Woche später hat sich die Debatte von der politischen Regulierungsfrage zur grundsätzlicheren Frage der **Finanzierbarkeit des KI-Investitionszyklus** verschoben — Capital Economics (Vicky Redwood) und Bank of America (Michael Hartnett) sehen bis 2027 wachsende Risiken durch negativen freien Cashflow der Hyperscaler und ein mögliches S&P-500-Abwärtspotenzial von bis zu 12 %, während Morgan Stanley, Cathie Wood und Yardeni Research den Bullenmarkt intakt sehen. **Update 18.11.:** Die Vorstandsuntersuchung endete nicht mit einer Entlastung, sondern mit Huangs Rücktritt als CEO wegen einer zweiten Affäre — Interims-CEO Colette Kress führte Nvidia durch neue US-Exportkontrollen und ein über Konsens liegendes Quartalsergebnis, während Board-Chairman Harvey Jones eine Rückkehr Huangs explizit ausschloss. **Update 20.11.:** Trotz Rekordzahlen verzeichnete Nvidia die siebte Verlustsitzung in Folge; Michael Burry nahm die Hälfte seiner Nvidia/SMH-Puts gewinnbringend vom Tisch, hielt seine strukturelle Nasdaq-100-Short-Position aber unverändert. **Update 25.11.:** Entgegen Jones' Ansage bestätigte Nvidias Vorstand am 23.11. doch wieder Jensen Huang als CEO und löste eine kurze Rally aus (+31,5 %), die binnen zwei Tagen in einen neuen, breiten Ausverkauf kippte — diesmal laut MarketWatch getrieben von Kreditmarkt-Sorgen statt der Governance-Frage, mit Anthropic erstmals unter IPO-Preis und einer Warnung von David Morrison (Trade Nation), dass die Alleinabhängigkeit der Rally von Huang „reeks of desperation“. Eine Entscheidung zwischen beiden Lagern steht laut den zitierten Quellen weiterhin aus.
 
 *Recherche KI-unterstützt erzeugt am 06.11.2026 für otype, aktualisiert am 25.11.2026.*
