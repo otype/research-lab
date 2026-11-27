@@ -1,6 +1,6 @@
 # Offizielle Warnungen zu Stromausfällen & Angriffen auf kritische Infrastruktur
 ### Globaler Überblick – Zeitraum: August bis November 2026
-*Stand: 11. November 2026 (Update) — reine Faktenbasis, nur verifizierbare Zitate von Amtsträgern/Behörden. Boulevard-/Panik-Quellen ohne offizielles Zitat wurden ausgeschlossen. Alle Quellenlinks wurden einzeln nachrecherchiert und verifiziert.*
+*Stand: 27. November 2026 (Update) — reine Faktenbasis, nur verifizierbare Zitate von Amtsträgern/Behörden. Boulevard-/Panik-Quellen ohne offizielles Zitat wurden ausgeschlossen. Alle Quellenlinks wurden einzeln nachrecherchiert und verifiziert.*
 
 ---
 
@@ -16,6 +16,7 @@
 - **Update 7.11.:** Russland hat die Angriffe auf Ukraines Energienetz massiv eskaliert — 3.–7.11. mehrere Großangriffe (u.a. 172 Drohnen + 36 Raketen am 7.11.), Notabschaltungen in 7 Oblasten, Kyiv zeitweise ohne Wasser/Wärme. Selenskyj: Ziel sei, „Kyiv und das ganze Land in einen Blackout zu stürzen“.
 - **Neu, über Stromnetz hinaus:** Seit Ende Oktober läuft eine europaweite Hybrid-Sabotage-Kampagne gegen zivile Infrastruktur — gehackte Kühlketten-/Kühlhaussteuerungen (Supermärkte, eine französische Blutbank), Bombendrohungswellen gegen Flüge und TV-Sender. Italiens PM Meloni, FBI und Spaniens Außenminister ordnen dies explizit als zusammenhängende Bedrohung ziviler Infrastruktur ein.
 - **Update 11.11.:** Russland eskalierte die Angriffe auf Ukraines Energienetz in der Woche 02.–08.11. auf **128 gezielte Treffer**, so Vize-Energieminister Nekrasov. In der Nacht 09./10.11. und 10./11.11. folgten zwei weitere Großangriffswellen auf Umspannwerke in zusammen 10+ Oblasten; Premierminister Koretskyi meldete zwei Tote. Kyiv schaltet deshalb die Straßenbeleuchtung ab. IAEA-Generaldirektor Grossi verurteilte zudem den Tod von zwei Kraftwerksmitarbeitern durch Drohnenangriffe als „unacceptable“.
+- **Update 27.11.:** Das AKW Saporischschja verlor am 25.11. zum **28. Mal seit Kriegsbeginn** seine gesamte externe Stromversorgung (Ferosplavna-1-Leitung, mutmaßlich durch Kampfhandlungen). Die IAEA verhandelt eine neunte lokale Feuerpause; laut Generaldirektor Grossi sei die Anlage wegen der Frontlage und nur einer verbliebenen Leitung „extremely precarious“ versorgt. Das Werk fährt zur Dieseleinsparung Heizung und Reaktorkühlpumpen herunter (Diesel reicht laut IAEA noch über 10 Tage).
 
 ---
 
@@ -118,6 +119,18 @@
 
 ---
 
+## 7. Update 27.11.2026: 28. Stromausfall am AKW Saporischschja — IAEA warnt vor „extremely precarious“ Lage
+
+| Land/Org | Datum | Person/Titel | Zitat (wörtlich) | Kontext | Quelle |
+|---|---|---|---|---|---|
+| Ukraine | 26.11.2026 | Rafael Mariano Grossi, IAEA-Generaldirektor | „Once again we are faced with a loss of offsite power at the ZNPP. Its continued reliance on a single power line, together with the plant's location on the front line of an active warzone, results in an extremely precarious offsite power connection.“ | Verbindung zur letzten verbliebenen 330-kV-Leitung (Ferosplavna-1) am 25.11. um 05:28 Ortszeit unterbrochen, mutmaßlich durch Kampfhandlungen — 28. Mal seit Kriegsbeginn | [IAEA – „Update 377 – IAEA Director General Statement on Situation in Ukraine“](https://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine) |
+| Ukraine | 26.11.2026 | Rafael Mariano Grossi, IAEA-Generaldirektor | „I call on both sides to work constructively with the IAEA to cease military activity against electrical infrastructure, facilitate repair of the Ferosplavna-1 line and re-establish an offsite power connection to the ZNPP.“ | IAEA verhandelt neunte lokale Feuerpause rund um die Anlage | [IAEA – Update 377](https://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine) |
+| Ukraine | 26.11.2026 | Rafael Mariano Grossi, IAEA-Generaldirektor | „The diesel fuel conservation measures help the plant deliver its fundamental safety functions. Yet the cold conditions and the decision to only operate safety related equipment periodically underline the challenges facing staff at the site.“ | Von 4 automatisch angelaufenen Notstromdieseln (von 19 insgesamt) laufen nur noch 2 zur Dieseleinsparung; Heizung und die meisten Reaktorkühlpumpen abgeschaltet trotz 0 °C; Diesel reicht laut IAEA-Schätzung noch über 10 Tage | [IAEA – Update 377](https://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine) |
+
+**Einordnung:** Erstmals wird in dieser Reihe nicht ein Angriff auf das Netz selbst, sondern der direkte Sicherheitszustand eines Atomkraftwerks durch einen offiziellen IAEA-Pressebericht (nicht nur Agenturmeldungen) mit wörtlichem Zitat dokumentiert — inklusive technischer Details (Dieselreserven, abgeschaltete Kühlpumpen), die das Risiko greifbar machen. Reuters bestätigt unabhängig, dass die IAEA mit Russland und der Ukraine an einer Reparatur der Leitung arbeitet.
+
+---
+
 ## Fazit: Zeiträume im Vergleich
 
 | Zeitraum | Länder/Institutionen |
@@ -130,4 +143,4 @@
 
 **Methodischer Hinweis:** Alle Zitate stammen aus Primärquellen (Regierungs-/Behördenseiten, offizielle Reden) oder seriösen Nachrichtenagenturen (Reuters, AP, dpa, Kyodo, BBC) mit direkter Zitatwiedergabe. Artikel ohne verifizierbares Zitat einer konkreten Person/Behörde wurden ausgeschlossen (betrifft u.a. zahlreiche Boulevard-Stücke zu „90 Tage ohne Strom“). Alle Links wurden einzeln via Websuche nachrecherchiert und stichprobenartig geprüft; eine URL (Times of Israel Liveblog) konnte nicht final verifiziert werden und ist entsprechend markiert.
 
-*Recherche KI-unterstützt erzeugt am 05.11.2026, aktualisiert am 07.11.2026 und 11.11.2026, für otype.*
+*Recherche KI-unterstützt erzeugt am 05.11.2026, aktualisiert am 07.11.2026, 11.11.2026 und 27.11.2026, für otype.*
